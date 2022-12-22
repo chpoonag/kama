@@ -1,0 +1,4940 @@
+{
+    "DA_Training_2000-01-03_2003-12-26": {
+        "Strategy": "KAMA Only",
+        "Type": "Training",
+        "From": "2000-01-03",
+        "To": "2003-12-26",
+        "Maxiter": 500,
+        "Bounds": [
+            [
+                3,
+                20
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                0,
+                0.1
+            ],
+            [
+                -0.1,
+                0
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Result": {
+            "success": true,
+            "status": 0,
+            "x": [
+                10.089374079943758,
+                4.160973480326474,
+                10.01029373356104,
+                0.030233257263183978,
+                -0.0853244109182887,
+                2.2770157843063936
+            ],
+            "fun": -0.0,
+            "nit": 500,
+            "nfev": 6008,
+            "njev": 1,
+            "nhev": 0,
+            "message": [
+                "Maximum number of iteration reached"
+            ]
+        },
+        "Runtime": "0:41:31.925627",
+        "Runtime Per Iter": "0:00:04.983851",
+        "TXN Summary": {
+            "bnh_pct": null,
+            "profit_net_pct": 0.0,
+            "profit_gross_pct": null,
+            "loss_gross_pct": null,
+            "profit_factor": null,
+            "runup_pct_max": null,
+            "drawdown_pct_max": null,
+            "mean_return_pct_annual": null,
+            "sd_delta_equity_annual": 1e-300,
+            "sd_downside_delta_equity_annual": 1e-300,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.0,
+            "sortino_delta_equity_annual": 0.0,
+            "avg_win_pct_annual": 0,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 0,
+            "win_count": 0,
+            "loss_count": 0,
+            "win_pct": 0,
+            "txn_list": []
+        },
+        "TXN log": {
+            "idx": {},
+            "action": {},
+            "date": {},
+            "shares": {},
+            "stock": {},
+            "cash": {}
+        }
+    },
+    "DA_Testing_2003-12-29_2004-12-22": {
+        "Strategy": "KAMA Only",
+        "Type": "Testing",
+        "From": "2000-01-03",
+        "To": "2003-12-26",
+        "Maxiter": 500,
+        "x": [
+            10.089374079943758,
+            4.160973480326474,
+            10.01029373356104,
+            0.030233257263183978,
+            -0.0853244109182887,
+            2.2770157843063936
+        ],
+        "Obj Func Ret": -0.0,
+        "Runtime": "0:00:00.097298",
+        "Runtime Per Iter": "0:00:00.000195",
+        "TXN Summary": {
+            "bnh_pct": null,
+            "profit_net_pct": 0.0,
+            "profit_net_pct_annual": 0.0,
+            "profit_gross_pct": null,
+            "loss_gross_pct": null,
+            "profit_factor": null,
+            "runup_pct_max": null,
+            "drawdown_pct_max": null,
+            "mean_return_pct_annual": null,
+            "sd_delta_equity_annual": 1e-300,
+            "sd_downside_delta_equity_annual": 1e-300,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.0,
+            "sortino_delta_equity_annual": 0.0,
+            "avg_win_pct_annual": 0,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 0,
+            "win_count": 0,
+            "loss_count": 0,
+            "win_pct": 0,
+            "txn_list": []
+        },
+        "TXN log": {
+            "idx": {},
+            "action": {},
+            "date": {},
+            "shares": {},
+            "stock": {},
+            "cash": {}
+        }
+    },
+    "DA_Training_2000-12-28_2004-12-23": {
+        "Strategy": "KAMA Only",
+        "Type": "Training",
+        "From": "2000-12-28",
+        "To": "2004-12-23",
+        "Maxiter": 500,
+        "Bounds": [
+            [
+                3,
+                20
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                0,
+                0.1
+            ],
+            [
+                -0.1,
+                0
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Result": {
+            "success": true,
+            "status": 0,
+            "x": [
+                7.589342327875343,
+                2.317989165321349,
+                53.08184257488605,
+                0.009739349823686655,
+                -0.0027647695298146646,
+                2.7806735566107075
+            ],
+            "fun": -62.23451657785999,
+            "nit": 500,
+            "nfev": 6029,
+            "njev": 4,
+            "nhev": 0,
+            "message": [
+                "Maximum number of iteration reached"
+            ]
+        },
+        "Runtime": "0:36:44.356987",
+        "Runtime Per Iter": "0:00:04.408714",
+        "TXN Summary": {
+            "bnh_pct": 39.778502875,
+            "profit_net_pct": 27.705394193175014,
+            "profit_gross_pct": 27.705394193175014,
+            "loss_gross_pct": 0.0,
+            "profit_factor": 1000000000,
+            "runup_pct_max": 27.705394193175014,
+            "drawdown_pct_max": 27.705394193175014,
+            "mean_return_pct_annual": 0.06298169220169147,
+            "sd_delta_equity_annual": 0.06764469094767266,
+            "sd_downside_delta_equity_annual": 0.04401218671503619,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.9376880331211149,
+            "sortino_delta_equity_annual": 1.4411830436077597,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 115.0,
+            "win_count": 1,
+            "loss_count": 0,
+            "win_pct": 100.0,
+            "txn_list": [
+                [
+                    557,
+                    1,
+                    "2003-03-24",
+                    115.0,
+                    99386.44769999999,
+                    613.5523000000103
+                ],
+                [
+                    804,
+                    -1,
+                    "2004-03-16",
+                    0.0,
+                    0.0,
+                    127705.39419317502
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 557,
+                "1": 804
+            },
+            "action": {
+                "0": 1,
+                "1": -1
+            },
+            "date": {
+                "0": "2003-03-24",
+                "1": "2004-03-16"
+            },
+            "shares": {
+                "0": 115.0,
+                "1": 0.0
+            },
+            "stock": {
+                "0": 99386.44769999999,
+                "1": 0.0
+            },
+            "cash": {
+                "0": 613.5523000000103,
+                "1": 127705.39419317502
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 127705.39419317502
+            },
+            "return_txnpair": {
+                "0": 27705.394193175016,
+                "1": NaN
+            },
+            "return_pct_txnpair": {
+                "0": 27.705394193175014,
+                "1": NaN
+            }
+        }
+    },
+    "DA_Testing_2004-12-27_2005-12-19": {
+        "Strategy": "KAMA Only",
+        "Type": "Testing",
+        "From": "2000-12-28",
+        "To": "2004-12-23",
+        "Maxiter": 500,
+        "x": [
+            7.589342327875343,
+            2.317989165321349,
+            53.08184257488605,
+            0.009739349823686655,
+            -0.0027647695298146646,
+            2.7806735566107075
+        ],
+        "Obj Func Ret": -0.0,
+        "Runtime": "0:00:00.097728",
+        "Runtime Per Iter": "0:00:00.000195",
+        "TXN Summary": {
+            "bnh_pct": null,
+            "profit_net_pct": 0.0,
+            "profit_net_pct_annual": 0.0,
+            "profit_gross_pct": null,
+            "loss_gross_pct": null,
+            "profit_factor": null,
+            "runup_pct_max": null,
+            "drawdown_pct_max": null,
+            "mean_return_pct_annual": null,
+            "sd_delta_equity_annual": 1e-300,
+            "sd_downside_delta_equity_annual": 1e-300,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.0,
+            "sortino_delta_equity_annual": 0.0,
+            "avg_win_pct_annual": 0,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 0,
+            "win_count": 0,
+            "loss_count": 0,
+            "win_pct": 0,
+            "txn_list": []
+        },
+        "TXN log": {
+            "idx": {},
+            "action": {},
+            "date": {},
+            "shares": {},
+            "stock": {},
+            "cash": {}
+        }
+    },
+    "DA_Training_2002-01-02_2005-12-20": {
+        "Strategy": "KAMA Only",
+        "Type": "Training",
+        "From": "2002-01-02",
+        "To": "2005-12-20",
+        "Maxiter": 500,
+        "Bounds": [
+            [
+                3,
+                20
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                0,
+                0.1
+            ],
+            [
+                -0.1,
+                0
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Result": {
+            "success": true,
+            "status": 0,
+            "x": [
+                10.089374079943758,
+                4.160973480326474,
+                10.01029373356104,
+                0.030233257263183978,
+                -0.0853244109182887,
+                2.2770157843063936
+            ],
+            "fun": -0.0,
+            "nit": 500,
+            "nfev": 6008,
+            "njev": 1,
+            "nhev": 0,
+            "message": [
+                "Maximum number of iteration reached"
+            ]
+        },
+        "Runtime": "0:36:01.182828",
+        "Runtime Per Iter": "0:00:04.322366",
+        "TXN Summary": {
+            "bnh_pct": null,
+            "profit_net_pct": 0.0,
+            "profit_gross_pct": null,
+            "loss_gross_pct": null,
+            "profit_factor": null,
+            "runup_pct_max": null,
+            "drawdown_pct_max": null,
+            "mean_return_pct_annual": null,
+            "sd_delta_equity_annual": 1e-300,
+            "sd_downside_delta_equity_annual": 1e-300,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.0,
+            "sortino_delta_equity_annual": 0.0,
+            "avg_win_pct_annual": 0,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 0,
+            "win_count": 0,
+            "loss_count": 0,
+            "win_pct": 0,
+            "txn_list": []
+        },
+        "TXN log": {
+            "idx": {},
+            "action": {},
+            "date": {},
+            "shares": {},
+            "stock": {},
+            "cash": {}
+        }
+    },
+    "DA_Testing_2005-12-21_2006-12-15": {
+        "Strategy": "KAMA Only",
+        "Type": "Testing",
+        "From": "2002-01-02",
+        "To": "2005-12-20",
+        "Maxiter": 500,
+        "x": [
+            10.089374079943758,
+            4.160973480326474,
+            10.01029373356104,
+            0.030233257263183978,
+            -0.0853244109182887,
+            2.2770157843063936
+        ],
+        "Obj Func Ret": -0.0,
+        "Runtime": "0:00:00.098013",
+        "Runtime Per Iter": "0:00:00.000196",
+        "TXN Summary": {
+            "bnh_pct": null,
+            "profit_net_pct": 0.0,
+            "profit_net_pct_annual": 0.0,
+            "profit_gross_pct": null,
+            "loss_gross_pct": null,
+            "profit_factor": null,
+            "runup_pct_max": null,
+            "drawdown_pct_max": null,
+            "mean_return_pct_annual": null,
+            "sd_delta_equity_annual": 1e-300,
+            "sd_downside_delta_equity_annual": 1e-300,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.0,
+            "sortino_delta_equity_annual": 0.0,
+            "avg_win_pct_annual": 0,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 0,
+            "win_count": 0,
+            "loss_count": 0,
+            "win_pct": 0,
+            "txn_list": []
+        },
+        "TXN log": {
+            "idx": {},
+            "action": {},
+            "date": {},
+            "shares": {},
+            "stock": {},
+            "cash": {}
+        }
+    },
+    "DA_Training_2002-12-30_2006-12-18": {
+        "Strategy": "KAMA Only",
+        "Type": "Training",
+        "From": "2002-12-30",
+        "To": "2006-12-18",
+        "Maxiter": 500,
+        "Bounds": [
+            [
+                3,
+                20
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                0,
+                0.1
+            ],
+            [
+                -0.1,
+                0
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Result": {
+            "success": true,
+            "status": 0,
+            "x": [
+                5.577098882407881,
+                4.386695518100169,
+                74.3025450205896,
+                0.00269553345728088,
+                -0.000961378960831677,
+                4.07257780038708
+            ],
+            "fun": -96.77505426465007,
+            "nit": 500,
+            "nfev": 6029,
+            "njev": 4,
+            "nhev": 0,
+            "message": [
+                "Maximum number of iteration reached"
+            ]
+        },
+        "Runtime": "0:36:15.673426",
+        "Runtime Per Iter": "0:00:04.351347",
+        "TXN Summary": {
+            "bnh_pct": 64.19875000000003,
+            "profit_net_pct": 26.854205420874997,
+            "profit_gross_pct": 22.881884188875002,
+            "loss_gross_pct": 0.0,
+            "profit_factor": 1000000000,
+            "runup_pct_max": 22.501347481675005,
+            "drawdown_pct_max": 0.05712965168034323,
+            "mean_return_pct_annual": 0.05280906542006836,
+            "sd_delta_equity_annual": 0.0912780452003853,
+            "sd_downside_delta_equity_annual": 0.06277476624713056,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.6970664447584588,
+            "sortino_delta_equity_annual": 1.0135738650439479,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 115.0,
+            "win_count": 3,
+            "loss_count": 0,
+            "win_pct": 100.0,
+            "txn_list": [
+                [
+                    57,
+                    1,
+                    "2003-03-24",
+                    115.0,
+                    99386.44769999999,
+                    613.5523000000103
+                ],
+                [
+                    404,
+                    -1,
+                    "2004-08-09",
+                    0.0,
+                    0.0,
+                    122501.34748167501
+                ],
+                [
+                    468,
+                    1,
+                    "2004-11-08",
+                    104.0,
+                    121148.56156,
+                    1352.7859216750076
+                ],
+                [
+                    562,
+                    -1,
+                    "2005-03-24",
+                    0.0,
+                    0.0,
+                    122571.332074795
+                ],
+                [
+                    734,
+                    1,
+                    "2005-11-28",
+                    96.0,
+                    120716.156256,
+                    1855.1758187950036
+                ],
+                [
+                    853,
+                    -1,
+                    "2006-05-19",
+                    0.0,
+                    0.0,
+                    122881.884188875
+                ],
+                [
+                    965,
+                    1,
+                    "2006-10-27",
+                    88.0,
+                    121205.917008,
+                    1675.967180874999
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 57,
+                "1": 404,
+                "2": 468,
+                "3": 562,
+                "4": 734,
+                "5": 853,
+                "6": 965
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1,
+                "3": -1,
+                "4": 1,
+                "5": -1,
+                "6": 1
+            },
+            "date": {
+                "0": "2003-03-24",
+                "1": "2004-08-09",
+                "2": "2004-11-08",
+                "3": "2005-03-24",
+                "4": "2005-11-28",
+                "5": "2006-05-19",
+                "6": "2006-10-27"
+            },
+            "shares": {
+                "0": 115.0,
+                "1": 0.0,
+                "2": 104.0,
+                "3": 0.0,
+                "4": 96.0,
+                "5": 0.0,
+                "6": 88.0
+            },
+            "stock": {
+                "0": 99386.44769999999,
+                "1": 0.0,
+                "2": 121148.56156,
+                "3": 0.0,
+                "4": 120716.156256,
+                "5": 0.0,
+                "6": 121205.917008
+            },
+            "cash": {
+                "0": 613.5523000000103,
+                "1": 122501.34748167501,
+                "2": 1352.7859216750076,
+                "3": 122571.332074795,
+                "4": 1855.1758187950036,
+                "5": 122881.884188875,
+                "6": 1675.967180874999
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 122501.34748167501,
+                "2": 122501.34748167501,
+                "3": 122571.332074795,
+                "4": 122571.332074795,
+                "5": 122881.884188875,
+                "6": 122881.884188875
+            },
+            "return_txnpair": {
+                "0": 22501.34748167501,
+                "1": NaN,
+                "2": 69.98459311999613,
+                "3": NaN,
+                "4": 310.5521140799974,
+                "5": NaN,
+                "6": NaN
+            },
+            "return_pct_txnpair": {
+                "0": 22.501347481675005,
+                "1": NaN,
+                "2": 0.05712965168034323,
+                "3": NaN,
+                "4": 0.25336439510219577,
+                "5": NaN,
+                "6": NaN
+            }
+        }
+    },
+    "DA_Testing_2006-12-19_2007-12-14": {
+        "Strategy": "KAMA Only",
+        "Type": "Testing",
+        "From": "2002-12-30",
+        "To": "2006-12-18",
+        "Maxiter": 500,
+        "x": [
+            5.577098882407881,
+            4.386695518100169,
+            74.3025450205896,
+            0.00269553345728088,
+            -0.000961378960831677,
+            4.07257780038708
+        ],
+        "Obj Func Ret": -0.0,
+        "Runtime": "0:00:00.096893",
+        "Runtime Per Iter": "0:00:00.000194",
+        "TXN Summary": {
+            "bnh_pct": null,
+            "profit_net_pct": 0.0,
+            "profit_net_pct_annual": 0.0,
+            "profit_gross_pct": null,
+            "loss_gross_pct": null,
+            "profit_factor": null,
+            "runup_pct_max": null,
+            "drawdown_pct_max": null,
+            "mean_return_pct_annual": null,
+            "sd_delta_equity_annual": 1e-300,
+            "sd_downside_delta_equity_annual": 1e-300,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.0,
+            "sortino_delta_equity_annual": 0.0,
+            "avg_win_pct_annual": 0,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 0,
+            "win_count": 0,
+            "loss_count": 0,
+            "win_pct": 0,
+            "txn_list": []
+        },
+        "TXN log": {
+            "idx": {},
+            "action": {},
+            "date": {},
+            "shares": {},
+            "stock": {},
+            "cash": {}
+        }
+    },
+    "DA_Training_2003-12-26_2007-12-17": {
+        "Strategy": "KAMA Only",
+        "Type": "Training",
+        "From": "2003-12-26",
+        "To": "2007-12-17",
+        "Maxiter": 500,
+        "Bounds": [
+            [
+                3,
+                20
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                0,
+                0.1
+            ],
+            [
+                -0.1,
+                0
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Result": {
+            "success": true,
+            "status": 0,
+            "x": [
+                3.470383513071912,
+                2.1456466479207896,
+                25.04790599671938,
+                0.0017367781381461833,
+                -0.00727287390106382,
+                3.1750451471149965
+            ],
+            "fun": -88.73406343579506,
+            "nit": 500,
+            "nfev": 6071,
+            "njev": 10,
+            "nhev": 0,
+            "message": [
+                "Maximum number of iteration reached"
+            ]
+        },
+        "Runtime": "0:37:00.915017",
+        "Runtime Per Iter": "0:00:04.441830",
+        "TXN Summary": {
+            "bnh_pct": 29.927140801000007,
+            "profit_net_pct": 29.57802114526502,
+            "profit_gross_pct": 32.71438034426502,
+            "loss_gross_pct": 0.0,
+            "profit_factor": 1000000000,
+            "runup_pct_max": 29.738568978356916,
+            "drawdown_pct_max": 0.47411023303001176,
+            "mean_return_pct_annual": 0.0732448102974097,
+            "sd_delta_equity_annual": 0.1039937989958874,
+            "sd_downside_delta_equity_annual": 0.07907492332760298,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.6750474647420027,
+            "sortino_delta_equity_annual": 0.8877751303055387,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 89.0,
+            "win_count": 3,
+            "loss_count": 0,
+            "win_pct": 100.0,
+            "txn_list": [
+                [
+                    2,
+                    1,
+                    "2003-12-30",
+                    89.0,
+                    98757.961335,
+                    1242.038665
+                ],
+                [
+                    52,
+                    -1,
+                    "2004-03-12",
+                    0.0,
+                    0.0,
+                    100474.11023303002
+                ],
+                [
+                    64,
+                    1,
+                    "2004-03-30",
+                    88.0,
+                    99176.0,
+                    1298.11023303002
+                ],
+                [
+                    902,
+                    -1,
+                    "2007-07-30",
+                    0.0,
+                    0.0,
+                    130353.67281007001
+                ],
+                [
+                    918,
+                    1,
+                    "2007-08-21",
+                    89.0,
+                    128793.679555,
+                    1559.9932550700178
+                ],
+                [
+                    977,
+                    -1,
+                    "2007-11-13",
+                    0.0,
+                    0.0,
+                    132714.38034426502
+                ],
+                [
+                    989,
+                    1,
+                    "2007-11-30",
+                    89.0,
+                    131821.461335,
+                    892.9190092650242
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 2,
+                "1": 52,
+                "2": 64,
+                "3": 902,
+                "4": 918,
+                "5": 977,
+                "6": 989
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1,
+                "3": -1,
+                "4": 1,
+                "5": -1,
+                "6": 1
+            },
+            "date": {
+                "0": "2003-12-30",
+                "1": "2004-03-12",
+                "2": "2004-03-30",
+                "3": "2007-07-30",
+                "4": "2007-08-21",
+                "5": "2007-11-13",
+                "6": "2007-11-30"
+            },
+            "shares": {
+                "0": 89.0,
+                "1": 0.0,
+                "2": 88.0,
+                "3": 0.0,
+                "4": 89.0,
+                "5": 0.0,
+                "6": 89.0
+            },
+            "stock": {
+                "0": 98757.961335,
+                "1": 0.0,
+                "2": 99176.0,
+                "3": 0.0,
+                "4": 128793.679555,
+                "5": 0.0,
+                "6": 131821.461335
+            },
+            "cash": {
+                "0": 1242.038665,
+                "1": 100474.11023303002,
+                "2": 1298.11023303002,
+                "3": 130353.67281007001,
+                "4": 1559.9932550700178,
+                "5": 132714.38034426502,
+                "6": 892.9190092650242
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 100474.11023303002,
+                "2": 100474.11023303002,
+                "3": 130353.67281007001,
+                "4": 130353.67281007001,
+                "5": 132714.38034426502,
+                "6": 132714.38034426502
+            },
+            "return_txnpair": {
+                "0": 474.11023303002,
+                "1": NaN,
+                "2": 29879.562577039993,
+                "3": NaN,
+                "4": 2360.7075341950112,
+                "5": NaN,
+                "6": NaN
+            },
+            "return_pct_txnpair": {
+                "0": 0.47411023303001176,
+                "1": NaN,
+                "2": 29.738568978356916,
+                "3": NaN,
+                "4": 1.811001932898848,
+                "5": NaN,
+                "6": NaN
+            }
+        }
+    },
+    "DA_Testing_2007-12-18_2008-12-11": {
+        "Strategy": "KAMA Only",
+        "Type": "Testing",
+        "From": "2003-12-26",
+        "To": "2007-12-17",
+        "Maxiter": 500,
+        "x": [
+            3.470383513071912,
+            2.1456466479207896,
+            25.04790599671938,
+            0.0017367781381461833,
+            -0.00727287390106382,
+            3.1750451471149965
+        ],
+        "Obj Func Ret": 218.78970604845006,
+        "Runtime": "0:00:00.106063",
+        "Runtime Per Iter": "0:00:00.000212",
+        "TXN Summary": {
+            "bnh_pct": -41.188620462,
+            "profit_net_pct": -43.75794120969001,
+            "profit_net_pct_annual": -43.88778148453002,
+            "profit_gross_pct": 0.0,
+            "loss_gross_pct": -42.85618338569,
+            "profit_factor": -0.0,
+            "runup_pct_max": -5.721435850220957,
+            "drawdown_pct_max": -21.243872193220902,
+            "mean_return_pct_annual": -0.429844633710757,
+            "sd_delta_equity_annual": 0.2751909954895959,
+            "sd_downside_delta_equity_annual": 0.23149701260515498,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": -1.9666163431433294,
+            "sortino_delta_equity_annual": -2.337806017992952,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 71.0,
+            "win_count": 0,
+            "loss_count": 5,
+            "win_pct": 0.0,
+            "txn_list": [
+                [
+                    5,
+                    1,
+                    "2007-12-26",
+                    66.0,
+                    98845.562244,
+                    1154.4377559999994
+                ],
+                [
+                    21,
+                    -1,
+                    "2008-01-18",
+                    0.0,
+                    0.0,
+                    88179.66118147
+                ],
+                [
+                    30,
+                    1,
+                    "2008-02-01",
+                    62.0,
+                    86516.042728,
+                    1663.6184534700005
+                ],
+                [
+                    56,
+                    -1,
+                    "2008-03-11",
+                    0.0,
+                    0.0,
+                    83134.51843403
+                ],
+                [
+                    66,
+                    1,
+                    "2008-03-26",
+                    61.0,
+                    81808.930305,
+                    1325.5881290300022
+                ],
+                [
+                    201,
+                    -1,
+                    "2008-10-06",
+                    0.0,
+                    0.0,
+                    65473.527589455
+                ],
+                [
+                    208,
+                    1,
+                    "2008-10-15",
+                    71.0,
+                    64456.641917,
+                    1016.8856724549987
+                ],
+                [
+                    216,
+                    -1,
+                    "2008-10-27",
+                    0.0,
+                    0.0,
+                    60988.837871489995
+                ],
+                [
+                    220,
+                    1,
+                    "2008-10-31",
+                    62.0,
+                    60062.5,
+                    926.3378714899955
+                ],
+                [
+                    229,
+                    -1,
+                    "2008-11-13",
+                    0.0,
+                    0.0,
+                    57143.816614309995
+                ],
+                [
+                    238,
+                    1,
+                    "2008-11-26",
+                    64.0,
+                    56811.519552,
+                    332.2970623099973
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 5,
+                "1": 21,
+                "2": 30,
+                "3": 56,
+                "4": 66,
+                "5": 201,
+                "6": 208,
+                "7": 216,
+                "8": 220,
+                "9": 229,
+                "10": 238
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1,
+                "3": -1,
+                "4": 1,
+                "5": -1,
+                "6": 1,
+                "7": -1,
+                "8": 1,
+                "9": -1,
+                "10": 1
+            },
+            "date": {
+                "0": "2007-12-26",
+                "1": "2008-01-18",
+                "2": "2008-02-01",
+                "3": "2008-03-11",
+                "4": "2008-03-26",
+                "5": "2008-10-06",
+                "6": "2008-10-15",
+                "7": "2008-10-27",
+                "8": "2008-10-31",
+                "9": "2008-11-13",
+                "10": "2008-11-26"
+            },
+            "shares": {
+                "0": 66.0,
+                "1": 0.0,
+                "2": 62.0,
+                "3": 0.0,
+                "4": 61.0,
+                "5": 0.0,
+                "6": 71.0,
+                "7": 0.0,
+                "8": 62.0,
+                "9": 0.0,
+                "10": 64.0
+            },
+            "stock": {
+                "0": 98845.562244,
+                "1": 0.0,
+                "2": 86516.042728,
+                "3": 0.0,
+                "4": 81808.930305,
+                "5": 0.0,
+                "6": 64456.641917,
+                "7": 0.0,
+                "8": 60062.5,
+                "9": 0.0,
+                "10": 56811.519552
+            },
+            "cash": {
+                "0": 1154.4377559999994,
+                "1": 88179.66118147,
+                "2": 1663.6184534700005,
+                "3": 83134.51843403,
+                "4": 1325.5881290300022,
+                "5": 65473.527589455,
+                "6": 1016.8856724549987,
+                "7": 60988.837871489995,
+                "8": 926.3378714899955,
+                "9": 57143.816614309995,
+                "10": 332.2970623099973
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 88179.66118147,
+                "2": 88179.66118147,
+                "3": 83134.51843403,
+                "4": 83134.51843403,
+                "5": 65473.527589455,
+                "6": 65473.527589455,
+                "7": 60988.837871489995,
+                "8": 60988.837871489995,
+                "9": 57143.816614309995,
+                "10": 57143.816614309995
+            },
+            "return_txnpair": {
+                "0": -11820.33881853,
+                "1": NaN,
+                "2": -5045.142747439997,
+                "3": NaN,
+                "4": -17660.990844575004,
+                "5": NaN,
+                "6": -4484.689717965004,
+                "7": NaN,
+                "8": -3845.0212571800002,
+                "9": NaN,
+                "10": NaN
+            },
+            "return_pct_txnpair": {
+                "0": -11.820338818529997,
+                "1": NaN,
+                "2": -5.721435850220957,
+                "3": NaN,
+                "4": -21.243872193220902,
+                "5": NaN,
+                "6": -6.849622867559225,
+                "7": NaN,
+                "8": -6.304467163781469,
+                "9": NaN,
+                "10": NaN
+            }
+        }
+    },
+    "DA_Training_2004-12-23_2008-12-12": {
+        "Strategy": "KAMA Only",
+        "Type": "Training",
+        "From": "2004-12-23",
+        "To": "2008-12-12",
+        "Maxiter": 500,
+        "Bounds": [
+            [
+                3,
+                20
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                0,
+                0.1
+            ],
+            [
+                -0.1,
+                0
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Result": {
+            "success": true,
+            "status": 0,
+            "x": [
+                19.549894174815023,
+                2.220363364886332,
+                27.023989768583206,
+                0.001601408296075968,
+                -0.003032975155916412,
+                2.7663443168010766
+            ],
+            "fun": -17.284790997644993,
+            "nit": 500,
+            "nfev": 6036,
+            "njev": 5,
+            "nhev": 0,
+            "message": [
+                "Maximum number of iteration reached"
+            ]
+        },
+        "Runtime": "0:36:26.513252",
+        "Runtime Per Iter": "0:00:04.373027",
+        "TXN Summary": {
+            "bnh_pct": -29.757,
+            "profit_net_pct": 2.905096700849996,
+            "profit_gross_pct": 13.843460381010008,
+            "loss_gross_pct": -10.938363680160013,
+            "profit_factor": -1.2655878690630173,
+            "runup_pct_max": 13.843460381010008,
+            "drawdown_pct_max": -9.608249471292963,
+            "mean_return_pct_annual": 0.007177731778331697,
+            "sd_delta_equity_annual": 0.0895521710914544,
+            "sd_downside_delta_equity_annual": 0.07227055428563954,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.124850845817381,
+            "sortino_delta_equity_annual": 0.1547056670045845,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 78.0,
+            "win_count": 1,
+            "loss_count": 1,
+            "win_pct": 50.0,
+            "txn_list": [
+                [
+                    231,
+                    1,
+                    "2005-11-22",
+                    78.0,
+                    98375.93844,
+                    1624.061560000002
+                ],
+                [
+                    666,
+                    -1,
+                    "2007-08-17",
+                    0.0,
+                    0.0,
+                    113843.46038101001
+                ],
+                [
+                    702,
+                    1,
+                    "2007-10-09",
+                    72.0,
+                    112690.801728,
+                    1152.658653010003
+                ],
+                [
+                    766,
+                    -1,
+                    "2008-01-10",
+                    0.0,
+                    0.0,
+                    102905.09670085
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 231,
+                "1": 666,
+                "2": 702,
+                "3": 766
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1,
+                "3": -1
+            },
+            "date": {
+                "0": "2005-11-22",
+                "1": "2007-08-17",
+                "2": "2007-10-09",
+                "3": "2008-01-10"
+            },
+            "shares": {
+                "0": 78.0,
+                "1": 0.0,
+                "2": 72.0,
+                "3": 0.0
+            },
+            "stock": {
+                "0": 98375.93844,
+                "1": 0.0,
+                "2": 112690.801728,
+                "3": 0.0
+            },
+            "cash": {
+                "0": 1624.061560000002,
+                "1": 113843.46038101001,
+                "2": 1152.658653010003,
+                "3": 102905.09670085
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 113843.46038101001,
+                "2": 113843.46038101001,
+                "3": 102905.09670085
+            },
+            "return_txnpair": {
+                "0": 13843.460381010009,
+                "1": NaN,
+                "2": -10938.363680160008,
+                "3": NaN
+            },
+            "return_pct_txnpair": {
+                "0": 13.843460381010008,
+                "1": NaN,
+                "2": -9.608249471292963,
+                "3": NaN
+            }
+        }
+    },
+    "DA_Testing_2008-12-15_2009-12-09": {
+        "Strategy": "KAMA Only",
+        "Type": "Testing",
+        "From": "2004-12-23",
+        "To": "2008-12-12",
+        "Maxiter": 500,
+        "x": [
+            19.549894174815023,
+            2.220363364886332,
+            27.023989768583206,
+            0.001601408296075968,
+            -0.003032975155916412,
+            2.7663443168010766
+        ],
+        "Obj Func Ret": -0.0,
+        "Runtime": "0:00:00.110781",
+        "Runtime Per Iter": "0:00:00.000222",
+        "TXN Summary": {
+            "bnh_pct": 34.41253341199999,
+            "profit_net_pct": 34.41253341199999,
+            "profit_net_pct_annual": 34.57227336537749,
+            "profit_gross_pct": null,
+            "loss_gross_pct": null,
+            "profit_factor": null,
+            "runup_pct_max": null,
+            "drawdown_pct_max": null,
+            "mean_return_pct_annual": null,
+            "sd_delta_equity_annual": 0.15303626843787943,
+            "sd_downside_delta_equity_annual": 0.10377767086357394,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 2.0255141021446583,
+            "sortino_delta_equity_annual": 2.9869346390324756,
+            "avg_win_pct_annual": 0,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 0,
+            "win_count": 0,
+            "loss_count": 0,
+            "win_pct": 0,
+            "txn_list": [
+                [
+                    68,
+                    1,
+                    "2009-03-25",
+                    122.0,
+                    99293.36061,
+                    706.6393899999966
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 68
+            },
+            "action": {
+                "0": 1
+            },
+            "date": {
+                "0": "2009-03-25"
+            },
+            "shares": {
+                "0": 122.0
+            },
+            "stock": {
+                "0": 99293.36061
+            },
+            "cash": {
+                "0": 706.6393899999966
+            }
+        }
+    },
+    "DA_Training_2005-12-20_2009-12-10": {
+        "Strategy": "KAMA Only",
+        "Type": "Training",
+        "From": "2005-12-20",
+        "To": "2009-12-10",
+        "Maxiter": 500,
+        "Bounds": [
+            [
+                3,
+                20
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                0,
+                0.1
+            ],
+            [
+                -0.1,
+                0
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Result": {
+            "success": true,
+            "status": 0,
+            "x": [
+                6.58091280239114,
+                2.0893708379626332,
+                80.16835643673369,
+                0.009124751754262111,
+                -0.0009497996960935173,
+                4.236742424456224
+            ],
+            "fun": -41.042969057,
+            "nit": 500,
+            "nfev": 6029,
+            "njev": 4,
+            "nhev": 0,
+            "message": [
+                "Maximum number of iteration reached"
+            ]
+        },
+        "Runtime": "0:36:10.924653",
+        "Runtime Per Iter": "0:00:04.341849",
+        "TXN Summary": {
+            "bnh_pct": 40.107059748,
+            "profit_net_pct": 18.63979316301998,
+            "profit_gross_pct": 18.63979316301998,
+            "loss_gross_pct": 0.0,
+            "profit_factor": 1000000000,
+            "runup_pct_max": 13.429646763119996,
+            "drawdown_pct_max": 4.5932845147447,
+            "mean_return_pct_annual": 0.04361198067526484,
+            "sd_delta_equity_annual": 0.07383565700151352,
+            "sd_downside_delta_equity_annual": 0.04937712827382302,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.6156651661345552,
+            "sortino_delta_equity_annual": 0.9206295226891549,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 126.0,
+            "win_count": 2,
+            "loss_count": 0,
+            "win_pct": 100.0,
+            "txn_list": [
+                [
+                    815,
+                    1,
+                    "2009-03-19",
+                    126.0,
+                    98789.037228,
+                    1210.962771999999
+                ],
+                [
+                    881,
+                    -1,
+                    "2009-06-23",
+                    0.0,
+                    0.0,
+                    113429.64676311999
+                ],
+                [
+                    901,
+                    1,
+                    "2009-07-22",
+                    118.0,
+                    112580.260826,
+                    849.3859371199942
+                ],
+                [
+                    932,
+                    -1,
+                    "2009-09-03",
+                    0.0,
+                    0.0,
+                    118639.79316301999
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 815,
+                "1": 881,
+                "2": 901,
+                "3": 932
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1,
+                "3": -1
+            },
+            "date": {
+                "0": "2009-03-19",
+                "1": "2009-06-23",
+                "2": "2009-07-22",
+                "3": "2009-09-03"
+            },
+            "shares": {
+                "0": 126.0,
+                "1": 0.0,
+                "2": 118.0,
+                "3": 0.0
+            },
+            "stock": {
+                "0": 98789.037228,
+                "1": 0.0,
+                "2": 112580.260826,
+                "3": 0.0
+            },
+            "cash": {
+                "0": 1210.962771999999,
+                "1": 113429.64676311999,
+                "2": 849.3859371199942,
+                "3": 118639.79316301999
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 113429.64676311999,
+                "2": 113429.64676311999,
+                "3": 118639.79316301999
+            },
+            "return_txnpair": {
+                "0": 13429.646763119992,
+                "1": NaN,
+                "2": 5210.146399899997,
+                "3": NaN
+            },
+            "return_pct_txnpair": {
+                "0": 13.429646763119996,
+                "1": NaN,
+                "2": 4.5932845147447,
+                "3": NaN
+            }
+        }
+    },
+    "DA_Testing_2009-12-11_2010-12-07": {
+        "Strategy": "KAMA Only",
+        "Type": "Testing",
+        "From": "2005-12-20",
+        "To": "2009-12-10",
+        "Maxiter": 500,
+        "x": [
+            6.58091280239114,
+            2.0893708379626332,
+            80.16835643673369,
+            0.009124751754262111,
+            -0.0009497996960935173,
+            4.236742424456224
+        ],
+        "Obj Func Ret": -0.0,
+        "Runtime": "0:00:00.120258",
+        "Runtime Per Iter": "0:00:00.000241",
+        "TXN Summary": {
+            "bnh_pct": null,
+            "profit_net_pct": 0.0,
+            "profit_net_pct_annual": 0.0,
+            "profit_gross_pct": null,
+            "loss_gross_pct": null,
+            "profit_factor": null,
+            "runup_pct_max": null,
+            "drawdown_pct_max": null,
+            "mean_return_pct_annual": null,
+            "sd_delta_equity_annual": 1e-300,
+            "sd_downside_delta_equity_annual": 1e-300,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.0,
+            "sortino_delta_equity_annual": 0.0,
+            "avg_win_pct_annual": 0,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 0,
+            "win_count": 0,
+            "loss_count": 0,
+            "win_pct": 0,
+            "txn_list": []
+        },
+        "TXN log": {
+            "idx": {},
+            "action": {},
+            "date": {},
+            "shares": {},
+            "stock": {},
+            "cash": {}
+        }
+    },
+    "DA_Training_2006-12-18_2010-12-08": {
+        "Strategy": "KAMA Only",
+        "Type": "Training",
+        "From": "2006-12-18",
+        "To": "2010-12-08",
+        "Maxiter": 500,
+        "Bounds": [
+            [
+                3,
+                20
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                0,
+                0.1
+            ],
+            [
+                -0.1,
+                0
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Result": {
+            "success": true,
+            "status": 0,
+            "x": [
+                9.949382562663232,
+                2.3484513454164357,
+                29.519147295039147,
+                0.005648999812257388,
+                -0.00048676261972291357,
+                2.416654637316242
+            ],
+            "fun": -85.20993623635498,
+            "nit": 500,
+            "nfev": 6043,
+            "njev": 6,
+            "nhev": 0,
+            "message": [
+                "Maximum number of iteration reached"
+            ]
+        },
+        "Runtime": "0:36:21.293815",
+        "Runtime Per Iter": "0:00:04.362588",
+        "TXN Summary": {
+            "bnh_pct": 55.97424642599999,
+            "profit_net_pct": 23.55760077751001,
+            "profit_gross_pct": 26.909582174125003,
+            "loss_gross_pct": -3.3519813966150003,
+            "profit_factor": -8.027962864382152,
+            "runup_pct_max": 16.347009045150006,
+            "drawdown_pct_max": -2.6412358619351095,
+            "mean_return_pct_annual": 0.054251972474078425,
+            "sd_delta_equity_annual": 0.08351397982145804,
+            "sd_downside_delta_equity_annual": 0.053289633728258005,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.674843920455921,
+            "sortino_delta_equity_annual": 1.0575959640290016,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 126.0,
+            "win_count": 3,
+            "loss_count": 1,
+            "win_pct": 75.0,
+            "txn_list": [
+                [
+                    565,
+                    1,
+                    "2009-03-19",
+                    126.0,
+                    98789.037228,
+                    1210.962771999999
+                ],
+                [
+                    628,
+                    -1,
+                    "2009-06-18",
+                    0.0,
+                    0.0,
+                    116347.00904515
+                ],
+                [
+                    651,
+                    1,
+                    "2009-07-22",
+                    121.0,
+                    115442.470847,
+                    904.5381981499959
+                ],
+                [
+                    702,
+                    -1,
+                    "2009-10-02",
+                    0.0,
+                    0.0,
+                    124334.691452745
+                ],
+                [
+                    899,
+                    1,
+                    "2010-07-16",
+                    116.0,
+                    123526.08058,
+                    808.6108727450046
+                ],
+                [
+                    921,
+                    -1,
+                    "2010-08-17",
+                    0.0,
+                    0.0,
+                    126909.58217412501
+                ],
+                [
+                    979,
+                    1,
+                    "2010-11-08",
+                    103.0,
+                    125994.75,
+                    914.8321741250111
+                ],
+                [
+                    987,
+                    -1,
+                    "2010-11-18",
+                    0.0,
+                    0.0,
+                    123557.60077751002
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 565,
+                "1": 628,
+                "2": 651,
+                "3": 702,
+                "4": 899,
+                "5": 921,
+                "6": 979,
+                "7": 987
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1,
+                "3": -1,
+                "4": 1,
+                "5": -1,
+                "6": 1,
+                "7": -1
+            },
+            "date": {
+                "0": "2009-03-19",
+                "1": "2009-06-18",
+                "2": "2009-07-22",
+                "3": "2009-10-02",
+                "4": "2010-07-16",
+                "5": "2010-08-17",
+                "6": "2010-11-08",
+                "7": "2010-11-18"
+            },
+            "shares": {
+                "0": 126.0,
+                "1": 0.0,
+                "2": 121.0,
+                "3": 0.0,
+                "4": 116.0,
+                "5": 0.0,
+                "6": 103.0,
+                "7": 0.0
+            },
+            "stock": {
+                "0": 98789.037228,
+                "1": 0.0,
+                "2": 115442.470847,
+                "3": 0.0,
+                "4": 123526.08058,
+                "5": 0.0,
+                "6": 125994.75,
+                "7": 0.0
+            },
+            "cash": {
+                "0": 1210.962771999999,
+                "1": 116347.00904515,
+                "2": 904.5381981499959,
+                "3": 124334.691452745,
+                "4": 808.6108727450046,
+                "5": 126909.58217412501,
+                "6": 914.8321741250111,
+                "7": 123557.60077751002
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 116347.00904515,
+                "2": 116347.00904515,
+                "3": 124334.691452745,
+                "4": 124334.691452745,
+                "5": 126909.58217412501,
+                "6": 126909.58217412501,
+                "7": 123557.60077751002
+            },
+            "return_txnpair": {
+                "0": 16347.00904515,
+                "1": NaN,
+                "2": 7987.682407594999,
+                "3": NaN,
+                "4": 2574.890721380012,
+                "5": NaN,
+                "6": -3351.981396614996,
+                "7": NaN
+            },
+            "return_pct_txnpair": {
+                "0": 16.347009045150006,
+                "1": NaN,
+                "2": 6.86539557239092,
+                "3": NaN,
+                "4": 2.0709350634924295,
+                "5": NaN,
+                "6": -2.6412358619351095,
+                "7": NaN
+            }
+        }
+    },
+    "DA_Testing_2010-12-09_2011-12-02": {
+        "Strategy": "KAMA Only",
+        "Type": "Testing",
+        "From": "2006-12-18",
+        "To": "2010-12-08",
+        "Maxiter": 500,
+        "x": [
+            9.949382562663232,
+            2.3484513454164357,
+            29.519147295039147,
+            0.005648999812257388,
+            -0.00048676261972291357,
+            2.416654637316242
+        ],
+        "Obj Func Ret": -0.0,
+        "Runtime": "0:00:00.112573",
+        "Runtime Per Iter": "0:00:00.000225",
+        "TXN Summary": {
+            "bnh_pct": null,
+            "profit_net_pct": 0.0,
+            "profit_net_pct_annual": 0.0,
+            "profit_gross_pct": null,
+            "loss_gross_pct": null,
+            "profit_factor": null,
+            "runup_pct_max": null,
+            "drawdown_pct_max": null,
+            "mean_return_pct_annual": null,
+            "sd_delta_equity_annual": 1e-300,
+            "sd_downside_delta_equity_annual": 1e-300,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.0,
+            "sortino_delta_equity_annual": 0.0,
+            "avg_win_pct_annual": 0,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 0,
+            "win_count": 0,
+            "loss_count": 0,
+            "win_pct": 0,
+            "txn_list": []
+        },
+        "TXN log": {
+            "idx": {},
+            "action": {},
+            "date": {},
+            "shares": {},
+            "stock": {},
+            "cash": {}
+        }
+    },
+    "DA_Training_2007-12-17_2011-12-05": {
+        "Strategy": "KAMA Only",
+        "Type": "Training",
+        "From": "2007-12-17",
+        "To": "2011-12-05",
+        "Maxiter": 500,
+        "Bounds": [
+            [
+                3,
+                20
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                0,
+                0.1
+            ],
+            [
+                -0.1,
+                0
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Result": {
+            "success": true,
+            "status": 0,
+            "x": [
+                8.482544415647254,
+                2.9781373756614746,
+                15.685032785087685,
+                0.0039043753311350238,
+                -0.0020881126305359043,
+                4.8961763518944
+            ],
+            "fun": -229.71009158736004,
+            "nit": 500,
+            "nfev": 6092,
+            "njev": 13,
+            "nhev": 0,
+            "message": [
+                "Maximum number of iteration reached"
+            ]
+        },
+        "Runtime": "0:37:04.948118",
+        "Runtime Per Iter": "0:00:04.449896",
+        "TXN Summary": {
+            "bnh_pct": 38.196862588000016,
+            "profit_net_pct": 36.770508474785025,
+            "profit_gross_pct": 44.08754047533503,
+            "loss_gross_pct": -7.317032000550006,
+            "profit_factor": -6.025331100372533,
+            "runup_pct_max": 15.430551240484181,
+            "drawdown_pct_max": -7.317032000550006,
+            "mean_return_pct_annual": 0.08134468817724816,
+            "sd_delta_equity_annual": 0.11231434626999473,
+            "sd_downside_delta_equity_annual": 0.08235085894591995,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.753300717907105,
+            "sortino_delta_equity_annual": 1.0273903485574514,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 116.0,
+            "win_count": 3,
+            "loss_count": 1,
+            "win_pct": 75.0,
+            "txn_list": [
+                [
+                    266,
+                    1,
+                    "2009-01-07",
+                    109.0,
+                    98824.852616,
+                    1175.1473839999962
+                ],
+                [
+                    272,
+                    -1,
+                    "2009-01-15",
+                    0.0,
+                    0.0,
+                    92682.96799944999
+                ],
+                [
+                    314,
+                    1,
+                    "2009-03-18",
+                    116.0,
+                    92144.597216,
+                    538.3707834499946
+                ],
+                [
+                    394,
+                    -1,
+                    "2009-07-13",
+                    0.0,
+                    0.0,
+                    104537.56039840999
+                ],
+                [
+                    400,
+                    1,
+                    "2009-07-21",
+                    108.0,
+                    103094.641836,
+                    1442.9185624099919
+                ],
+                [
+                    534,
+                    -1,
+                    "2010-02-01",
+                    0.0,
+                    0.0,
+                    118487.26962227
+                ],
+                [
+                    648,
+                    1,
+                    "2010-07-15",
+                    107.0,
+                    117323.35786,
+                    1163.9117622699996
+                ],
+                [
+                    818,
+                    -1,
+                    "2011-03-17",
+                    0.0,
+                    0.0,
+                    136770.50847478502
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 266,
+                "1": 272,
+                "2": 314,
+                "3": 394,
+                "4": 400,
+                "5": 534,
+                "6": 648,
+                "7": 818
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1,
+                "3": -1,
+                "4": 1,
+                "5": -1,
+                "6": 1,
+                "7": -1
+            },
+            "date": {
+                "0": "2009-01-07",
+                "1": "2009-01-15",
+                "2": "2009-03-18",
+                "3": "2009-07-13",
+                "4": "2009-07-21",
+                "5": "2010-02-01",
+                "6": "2010-07-15",
+                "7": "2011-03-17"
+            },
+            "shares": {
+                "0": 109.0,
+                "1": 0.0,
+                "2": 116.0,
+                "3": 0.0,
+                "4": 108.0,
+                "5": 0.0,
+                "6": 107.0,
+                "7": 0.0
+            },
+            "stock": {
+                "0": 98824.852616,
+                "1": 0.0,
+                "2": 92144.597216,
+                "3": 0.0,
+                "4": 103094.641836,
+                "5": 0.0,
+                "6": 117323.35786,
+                "7": 0.0
+            },
+            "cash": {
+                "0": 1175.1473839999962,
+                "1": 92682.96799944999,
+                "2": 538.3707834499946,
+                "3": 104537.56039840999,
+                "4": 1442.9185624099919,
+                "5": 118487.26962227,
+                "6": 1163.9117622699996,
+                "7": 136770.50847478502
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 92682.96799944999,
+                "2": 92682.96799944999,
+                "3": 104537.56039840999,
+                "4": 104537.56039840999,
+                "5": 118487.26962227,
+                "6": 118487.26962227,
+                "7": 136770.50847478502
+            },
+            "return_txnpair": {
+                "0": -7317.032000550011,
+                "1": NaN,
+                "2": 11854.592398959998,
+                "3": NaN,
+                "4": 13949.709223860016,
+                "5": NaN,
+                "6": 18283.238852515016,
+                "7": NaN
+            },
+            "return_pct_txnpair": {
+                "0": -7.317032000550006,
+                "1": NaN,
+                "2": 12.790475590974104,
+                "3": NaN,
+                "4": 13.3442077380564,
+                "5": NaN,
+                "6": 15.430551240484181,
+                "7": NaN
+            }
+        }
+    },
+    "DA_Testing_2011-12-06_2012-12-03": {
+        "Strategy": "KAMA Only",
+        "Type": "Testing",
+        "From": "2007-12-17",
+        "To": "2011-12-05",
+        "Maxiter": 500,
+        "x": [
+            8.482544415647254,
+            2.9781373756614746,
+            15.685032785087685,
+            0.0039043753311350238,
+            -0.0020881126305359043,
+            4.8961763518944
+        ],
+        "Obj Func Ret": -7.7846600096000085,
+        "Runtime": "0:00:00.143944",
+        "Runtime Per Iter": "0:00:00.000288",
+        "TXN Summary": {
+            "bnh_pct": 14.008798800000012,
+            "profit_net_pct": 7.7846600096000085,
+            "profit_net_pct_annual": 7.817115073559,
+            "profit_gross_pct": 7.7846600096000085,
+            "loss_gross_pct": 0.0,
+            "profit_factor": 1000000000,
+            "runup_pct_max": 7.7846600096000085,
+            "drawdown_pct_max": 7.7846600096000085,
+            "mean_return_pct_annual": 0.07817115073559,
+            "sd_delta_equity_annual": 0.07969576797500655,
+            "sd_downside_delta_equity_annual": 0.05343114661195694,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.9881095032162655,
+            "sortino_delta_equity_annual": 1.4738247388574672,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 80.0,
+            "win_count": 1,
+            "loss_count": 0,
+            "win_pct": 100.0,
+            "txn_list": [
+                [
+                    2,
+                    1,
+                    "2011-12-08",
+                    80.0,
+                    98747.99807999999,
+                    1252.0019200000097
+                ],
+                [
+                    109,
+                    -1,
+                    "2012-05-14",
+                    0.0,
+                    0.0,
+                    107784.6600096
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 2,
+                "1": 109
+            },
+            "action": {
+                "0": 1,
+                "1": -1
+            },
+            "date": {
+                "0": "2011-12-08",
+                "1": "2012-05-14"
+            },
+            "shares": {
+                "0": 80.0,
+                "1": 0.0
+            },
+            "stock": {
+                "0": 98747.99807999999,
+                "1": 0.0
+            },
+            "cash": {
+                "0": 1252.0019200000097,
+                "1": 107784.6600096
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 107784.6600096
+            },
+            "return_txnpair": {
+                "0": 7784.660009600004,
+                "1": NaN
+            },
+            "return_pct_txnpair": {
+                "0": 7.7846600096000085,
+                "1": NaN
+            }
+        }
+    },
+    "DA_Training_2008-12-12_2012-12-04": {
+        "Strategy": "KAMA Only",
+        "Type": "Training",
+        "From": "2008-12-12",
+        "To": "2012-12-04",
+        "Maxiter": 500,
+        "Bounds": [
+            [
+                3,
+                20
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                0,
+                0.1
+            ],
+            [
+                -0.1,
+                0
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Result": {
+            "success": true,
+            "status": 0,
+            "x": [
+                7.707419386217339,
+                3.0774923269659666,
+                66.03624029154889,
+                0.004344222445368362,
+                -0.002147858268001762,
+                4.31252918811515
+            ],
+            "fun": -271.25556648050997,
+            "nit": 500,
+            "nfev": 6064,
+            "njev": 9,
+            "nhev": 0,
+            "message": [
+                "Maximum number of iteration reached"
+            ]
+        },
+        "Runtime": "0:42:54.940363",
+        "Runtime Per Iter": "0:00:05.149881",
+        "TXN Summary": {
+            "bnh_pct": 82.36779915899999,
+            "profit_net_pct": 55.77179779024497,
+            "profit_gross_pct": 55.77179779024497,
+            "loss_gross_pct": 0.0,
+            "profit_factor": 1000000000,
+            "runup_pct_max": 40.46878521505499,
+            "drawdown_pct_max": 3.426506395503548,
+            "mean_return_pct_annual": 0.11705391222016104,
+            "sd_delta_equity_annual": 0.12645650406432615,
+            "sd_downside_delta_equity_annual": 0.09189381820237419,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.9395553185880217,
+            "sortino_delta_equity_annual": 1.2929366010456593,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 129.0,
+            "win_count": 3,
+            "loss_count": 0,
+            "win_pct": 100.0,
+            "txn_list": [
+                [
+                    66,
+                    1,
+                    "2009-03-20",
+                    129.0,
+                    99141.657162,
+                    858.3428379999968
+                ],
+                [
+                    361,
+                    -1,
+                    "2010-05-21",
+                    0.0,
+                    0.0,
+                    140468.785215055
+                ],
+                [
+                    479,
+                    1,
+                    "2010-11-08",
+                    114.0,
+                    139450.5,
+                    1018.2852150549879
+                ],
+                [
+                    628,
+                    -1,
+                    "2011-06-13",
+                    0.0,
+                    0.0,
+                    145281.957124135
+                ],
+                [
+                    753,
+                    1,
+                    "2011-12-08",
+                    117.0,
+                    144418.947192,
+                    863.009932134999
+                ],
+                [
+                    861,
+                    -1,
+                    "2012-05-15",
+                    0.0,
+                    0.0,
+                    155771.79779024498
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 66,
+                "1": 361,
+                "2": 479,
+                "3": 628,
+                "4": 753,
+                "5": 861
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1,
+                "3": -1,
+                "4": 1,
+                "5": -1
+            },
+            "date": {
+                "0": "2009-03-20",
+                "1": "2010-05-21",
+                "2": "2010-11-08",
+                "3": "2011-06-13",
+                "4": "2011-12-08",
+                "5": "2012-05-15"
+            },
+            "shares": {
+                "0": 129.0,
+                "1": 0.0,
+                "2": 114.0,
+                "3": 0.0,
+                "4": 117.0,
+                "5": 0.0
+            },
+            "stock": {
+                "0": 99141.657162,
+                "1": 0.0,
+                "2": 139450.5,
+                "3": 0.0,
+                "4": 144418.947192,
+                "5": 0.0
+            },
+            "cash": {
+                "0": 858.3428379999968,
+                "1": 140468.785215055,
+                "2": 1018.2852150549879,
+                "3": 145281.957124135,
+                "4": 863.009932134999,
+                "5": 155771.79779024498
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 140468.785215055,
+                "2": 140468.785215055,
+                "3": 145281.957124135,
+                "4": 145281.957124135,
+                "5": 155771.79779024498
+            },
+            "return_txnpair": {
+                "0": 40468.78521505499,
+                "1": NaN,
+                "2": 4813.171909080003,
+                "3": NaN,
+                "4": 10489.840666109987,
+                "5": NaN
+            },
+            "return_pct_txnpair": {
+                "0": 40.46878521505499,
+                "1": NaN,
+                "2": 3.426506395503548,
+                "3": NaN,
+                "4": 7.220332705971888,
+                "5": NaN
+            }
+        }
+    },
+    "DA_Testing_2012-12-05_2013-11-29": {
+        "Strategy": "KAMA Only",
+        "Type": "Testing",
+        "From": "2008-12-12",
+        "To": "2012-12-04",
+        "Maxiter": 500,
+        "x": [
+            7.707419386217339,
+            3.0774923269659666,
+            66.03624029154889,
+            0.004344222445368362,
+            -0.002147858268001762,
+            4.31252918811515
+        ],
+        "Obj Func Ret": -0.0,
+        "Runtime": "0:00:00.089939",
+        "Runtime Per Iter": "0:00:00.000180",
+        "TXN Summary": {
+            "bnh_pct": null,
+            "profit_net_pct": 0.0,
+            "profit_net_pct_annual": 0.0,
+            "profit_gross_pct": null,
+            "loss_gross_pct": null,
+            "profit_factor": null,
+            "runup_pct_max": null,
+            "drawdown_pct_max": null,
+            "mean_return_pct_annual": null,
+            "sd_delta_equity_annual": 1e-300,
+            "sd_downside_delta_equity_annual": 1e-300,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.0,
+            "sortino_delta_equity_annual": 0.0,
+            "avg_win_pct_annual": 0,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 0,
+            "win_count": 0,
+            "loss_count": 0,
+            "win_pct": 0,
+            "txn_list": []
+        },
+        "TXN log": {
+            "idx": {},
+            "action": {},
+            "date": {},
+            "shares": {},
+            "stock": {},
+            "cash": {}
+        }
+    },
+    "DA_Training_2009-12-10_2013-12-02": {
+        "Strategy": "KAMA Only",
+        "Type": "Training",
+        "From": "2009-12-10",
+        "To": "2013-12-02",
+        "Maxiter": 500,
+        "Bounds": [
+            [
+                3,
+                20
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                0,
+                0.1
+            ],
+            [
+                -0.1,
+                0
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Result": {
+            "success": true,
+            "status": 0,
+            "x": [
+                4.014386818136476,
+                2.2069817397468796,
+                29.85157920140145,
+                0.0012047673201878994,
+                -0.010991909662857874,
+                3.958790372013114
+            ],
+            "fun": -142.24158310312004,
+            "nit": 500,
+            "nfev": 6071,
+            "njev": 10,
+            "nhev": 0,
+            "message": [
+                "Maximum number of iteration reached"
+            ]
+        },
+        "Runtime": "0:37:40.486150",
+        "Runtime Per Iter": "0:00:04.520972",
+        "TXN Summary": {
+            "bnh_pct": 61.67432733,
+            "profit_net_pct": 49.494304008355016,
+            "profit_gross_pct": 0.5280020403550134,
+            "loss_gross_pct": 0.0,
+            "profit_factor": 1000000000,
+            "runup_pct_max": 0.5280020403550134,
+            "drawdown_pct_max": 0.5280020403550134,
+            "mean_return_pct_annual": 0.0013160825524876074,
+            "sd_delta_equity_annual": 0.15389874050594238,
+            "sd_downside_delta_equity_annual": 0.12253205956823812,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.7306083632270378,
+            "sortino_delta_equity_annual": 0.9176350034427643,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 89.0,
+            "win_count": 1,
+            "loss_count": 0,
+            "win_pct": 100.0,
+            "txn_list": [
+                [
+                    3,
+                    1,
+                    "2009-12-15",
+                    89.0,
+                    98605.77480599999,
+                    1394.2251940000133
+                ],
+                [
+                    417,
+                    -1,
+                    "2011-08-08",
+                    0.0,
+                    0.0,
+                    100528.00204035502
+                ],
+                [
+                    432,
+                    1,
+                    "2011-08-29",
+                    82.0,
+                    99226.556392,
+                    1301.4456483550166
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 3,
+                "1": 417,
+                "2": 432
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1
+            },
+            "date": {
+                "0": "2009-12-15",
+                "1": "2011-08-08",
+                "2": "2011-08-29"
+            },
+            "shares": {
+                "0": 89.0,
+                "1": 0.0,
+                "2": 82.0
+            },
+            "stock": {
+                "0": 98605.77480599999,
+                "1": 0.0,
+                "2": 99226.556392
+            },
+            "cash": {
+                "0": 1394.2251940000133,
+                "1": 100528.00204035502,
+                "2": 1301.4456483550166
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 100528.00204035502,
+                "2": 100528.00204035502
+            },
+            "return_txnpair": {
+                "0": 528.0020403550152,
+                "1": NaN,
+                "2": NaN
+            },
+            "return_pct_txnpair": {
+                "0": 0.5280020403550134,
+                "1": NaN,
+                "2": NaN
+            }
+        }
+    },
+    "DA_Testing_2013-12-03_2014-11-26": {
+        "Strategy": "KAMA Only",
+        "Type": "Testing",
+        "From": "2009-12-10",
+        "To": "2013-12-02",
+        "Maxiter": 500,
+        "x": [
+            4.014386818136476,
+            2.2069817397468796,
+            29.85157920140145,
+            0.0012047673201878994,
+            -0.010991909662857874,
+            3.958790372013114
+        ],
+        "Obj Func Ret": -0.0,
+        "Runtime": "0:00:00.106040",
+        "Runtime Per Iter": "0:00:00.000212",
+        "TXN Summary": {
+            "bnh_pct": 13.743547127999989,
+            "profit_net_pct": 13.558858163999998,
+            "profit_net_pct_annual": 13.616861456955554,
+            "profit_gross_pct": null,
+            "loss_gross_pct": null,
+            "profit_factor": null,
+            "runup_pct_max": null,
+            "drawdown_pct_max": null,
+            "mean_return_pct_annual": null,
+            "sd_delta_equity_annual": 0.11311217675221139,
+            "sd_downside_delta_equity_annual": 0.08146266654776121,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 1.1897509170508311,
+            "sortino_delta_equity_annual": 1.6519876125299466,
+            "avg_win_pct_annual": 0,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 0,
+            "win_count": 0,
+            "loss_count": 0,
+            "win_pct": 0,
+            "txn_list": [
+                [
+                    13,
+                    1,
+                    "2013-12-20",
+                    54.0,
+                    98189.277084,
+                    1810.7229159999988
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 13
+            },
+            "action": {
+                "0": 1
+            },
+            "date": {
+                "0": "2013-12-20"
+            },
+            "shares": {
+                "0": 54.0
+            },
+            "stock": {
+                "0": 98189.277084
+            },
+            "cash": {
+                "0": 1810.7229159999988
+            }
+        }
+    },
+    "DA_Training_2010-12-08_2014-11-28": {
+        "Strategy": "KAMA Only",
+        "Type": "Training",
+        "From": "2010-12-08",
+        "To": "2014-11-28",
+        "Maxiter": 500,
+        "Bounds": [
+            [
+                3,
+                20
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                0,
+                0.1
+            ],
+            [
+                -0.1,
+                0
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Result": {
+            "success": true,
+            "status": 0,
+            "x": [
+                4.55820057909785,
+                2.2155664711595975,
+                11.126242597446009,
+                0.0017544915448128862,
+                -0.00711066564249066,
+                4.768768435471129
+            ],
+            "fun": -193.74234678701993,
+            "nit": 500,
+            "nfev": 6064,
+            "njev": 9,
+            "nhev": 0,
+            "message": [
+                "Maximum number of iteration reached"
+            ]
+        },
+        "Runtime": "0:37:00.468353",
+        "Runtime Per Iter": "0:00:04.440937",
+        "TXN Summary": {
+            "bnh_pct": 66.76480471999999,
+            "profit_net_pct": 49.94967540217996,
+            "profit_gross_pct": 49.90444587245999,
+            "loss_gross_pct": -10.067175798280015,
+            "profit_factor": -4.957144572858874,
+            "runup_pct_max": 50.339947739723414,
+            "drawdown_pct_max": -6.696136868023372,
+            "mean_return_pct_annual": 0.08735001521927832,
+            "sd_delta_equity_annual": 0.12665218478491996,
+            "sd_downside_delta_equity_annual": 0.0970736153764277,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.8632261927741034,
+            "sortino_delta_equity_annual": 1.1262533372683787,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 88.0,
+            "win_count": 3,
+            "loss_count": 2,
+            "win_pct": 60.0,
+            "txn_list": [
+                [
+                    1,
+                    1,
+                    "2010-12-09",
+                    80.0,
+                    98640.0,
+                    1360.0
+                ],
+                [
+                    164,
+                    -1,
+                    "2011-08-03",
+                    0.0,
+                    0.0,
+                    101683.0612936
+                ],
+                [
+                    175,
+                    1,
+                    "2011-08-18",
+                    88.0,
+                    100377.202112,
+                    1305.859181599997
+                ],
+                [
+                    178,
+                    -1,
+                    "2011-08-23",
+                    0.0,
+                    0.0,
+                    103081.22308016
+                ],
+                [
+                    183,
+                    1,
+                    "2011-08-30",
+                    84.0,
+                    101885.283696,
+                    1195.9393841599958
+                ],
+                [
+                    200,
+                    -1,
+                    "2011-09-23",
+                    0.0,
+                    0.0,
+                    96178.76329747998
+                ],
+                [
+                    212,
+                    1,
+                    "2011-10-11",
+                    80.0,
+                    95643.20311999999,
+                    535.560177479987
+                ],
+                [
+                    243,
+                    -1,
+                    "2011-11-23",
+                    0.0,
+                    0.0,
+                    93014.04728187998
+                ],
+                [
+                    248,
+                    1,
+                    "2011-12-01",
+                    74.0,
+                    92098.916744,
+                    915.1305378799734
+                ],
+                [
+                    971,
+                    -1,
+                    "2014-10-17",
+                    0.0,
+                    0.0,
+                    139837.27007417998
+                ],
+                [
+                    974,
+                    1,
+                    "2014-10-22",
+                    72.0,
+                    138751.91892,
+                    1085.3511541799817
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 1,
+                "1": 164,
+                "2": 175,
+                "3": 178,
+                "4": 183,
+                "5": 200,
+                "6": 212,
+                "7": 243,
+                "8": 248,
+                "9": 971,
+                "10": 974
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1,
+                "3": -1,
+                "4": 1,
+                "5": -1,
+                "6": 1,
+                "7": -1,
+                "8": 1,
+                "9": -1,
+                "10": 1
+            },
+            "date": {
+                "0": "2010-12-09",
+                "1": "2011-08-03",
+                "2": "2011-08-18",
+                "3": "2011-08-23",
+                "4": "2011-08-30",
+                "5": "2011-09-23",
+                "6": "2011-10-11",
+                "7": "2011-11-23",
+                "8": "2011-12-01",
+                "9": "2014-10-17",
+                "10": "2014-10-22"
+            },
+            "shares": {
+                "0": 80.0,
+                "1": 0.0,
+                "2": 88.0,
+                "3": 0.0,
+                "4": 84.0,
+                "5": 0.0,
+                "6": 80.0,
+                "7": 0.0,
+                "8": 74.0,
+                "9": 0.0,
+                "10": 72.0
+            },
+            "stock": {
+                "0": 98640.0,
+                "1": 0.0,
+                "2": 100377.202112,
+                "3": 0.0,
+                "4": 101885.283696,
+                "5": 0.0,
+                "6": 95643.20311999999,
+                "7": 0.0,
+                "8": 92098.916744,
+                "9": 0.0,
+                "10": 138751.91892
+            },
+            "cash": {
+                "0": 1360.0,
+                "1": 101683.0612936,
+                "2": 1305.859181599997,
+                "3": 103081.22308016,
+                "4": 1195.9393841599958,
+                "5": 96178.76329747998,
+                "6": 535.560177479987,
+                "7": 93014.04728187998,
+                "8": 915.1305378799734,
+                "9": 139837.27007417998,
+                "10": 1085.3511541799817
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 101683.0612936,
+                "2": 101683.0612936,
+                "3": 103081.22308016,
+                "4": 103081.22308016,
+                "5": 96178.76329747998,
+                "6": 96178.76329747998,
+                "7": 93014.04728187998,
+                "8": 93014.04728187998,
+                "9": 139837.27007417998,
+                "10": 139837.27007417998
+            },
+            "return_txnpair": {
+                "0": 1683.0612935999961,
+                "1": NaN,
+                "2": 1398.1617865599983,
+                "3": NaN,
+                "4": -6902.459782680016,
+                "5": NaN,
+                "6": -3164.7160156000027,
+                "7": NaN,
+                "8": 46823.2227923,
+                "9": NaN,
+                "10": NaN
+            },
+            "return_pct_txnpair": {
+                "0": 1.6830612935999856,
+                "1": NaN,
+                "2": 1.3750193678010447,
+                "3": NaN,
+                "4": -6.696136868023372,
+                "5": NaN,
+                "6": -3.2904519741136284,
+                "7": NaN,
+                "8": 50.339947739723414,
+                "9": NaN,
+                "10": NaN
+            }
+        }
+    },
+    "DA_Testing_2014-12-01_2015-11-24": {
+        "Strategy": "KAMA Only",
+        "Type": "Testing",
+        "From": "2010-12-08",
+        "To": "2014-11-28",
+        "Maxiter": 500,
+        "x": [
+            4.55820057909785,
+            2.2155664711595975,
+            11.126242597446009,
+            0.0017544915448128862,
+            -0.00711066564249066,
+            4.768768435471129
+        ],
+        "Obj Func Ret": 6.282039357475,
+        "Runtime": "0:00:00.104943",
+        "Runtime Per Iter": "0:00:00.000210",
+        "TXN Summary": {
+            "bnh_pct": 0.3275886369999981,
+            "profit_net_pct": -6.282039357475,
+            "profit_net_pct_annual": -6.306455664151811,
+            "profit_gross_pct": 0.0,
+            "loss_gross_pct": -10.523205385474999,
+            "profit_factor": -0.0,
+            "runup_pct_max": -10.523205385474999,
+            "drawdown_pct_max": -10.523205385474999,
+            "mean_return_pct_annual": -0.10563152300411216,
+            "sd_delta_equity_annual": 0.12393545560843129,
+            "sd_downside_delta_equity_annual": 0.09915035516369135,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": -0.4653974237270969,
+            "sortino_delta_equity_annual": -0.5817350997218609,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 47.0,
+            "win_count": 0,
+            "loss_count": 1,
+            "win_pct": 0.0,
+            "txn_list": [
+                [
+                    16,
+                    1,
+                    "2014-12-23",
+                    47.0,
+                    97861.986334,
+                    2138.013665999999
+                ],
+                [
+                    184,
+                    -1,
+                    "2015-08-25",
+                    0.0,
+                    0.0,
+                    89476.794614525
+                ],
+                [
+                    200,
+                    1,
+                    "2015-09-17",
+                    44.0,
+                    87568.797844,
+                    1907.996770525002
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 16,
+                "1": 184,
+                "2": 200
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1
+            },
+            "date": {
+                "0": "2014-12-23",
+                "1": "2015-08-25",
+                "2": "2015-09-17"
+            },
+            "shares": {
+                "0": 47.0,
+                "1": 0.0,
+                "2": 44.0
+            },
+            "stock": {
+                "0": 97861.986334,
+                "1": 0.0,
+                "2": 87568.797844
+            },
+            "cash": {
+                "0": 2138.013665999999,
+                "1": 89476.794614525,
+                "2": 1907.996770525002
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 89476.794614525,
+                "2": 89476.794614525
+            },
+            "return_txnpair": {
+                "0": -10523.205385474997,
+                "1": NaN,
+                "2": NaN
+            },
+            "return_pct_txnpair": {
+                "0": -10.523205385474999,
+                "1": NaN,
+                "2": NaN
+            }
+        }
+    },
+    "DA_Training_2011-12-05_2015-11-25": {
+        "Strategy": "KAMA Only",
+        "Type": "Training",
+        "From": "2011-12-05",
+        "To": "2015-11-25",
+        "Maxiter": 500,
+        "Bounds": [
+            [
+                3,
+                20
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                0,
+                0.1
+            ],
+            [
+                -0.1,
+                0
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Result": {
+            "success": true,
+            "status": 0,
+            "x": [
+                10.60582128156399,
+                2.231537266869799,
+                80.26684157060467,
+                0.0023079970439901787,
+                -0.00728735988587173,
+                4.749291122693165
+            ],
+            "fun": -121.69118744409997,
+            "nit": 500,
+            "nfev": 6057,
+            "njev": 8,
+            "nhev": 0,
+            "message": [
+                "Maximum number of iteration reached"
+            ]
+        },
+        "Runtime": "0:36:49.046459",
+        "Runtime Per Iter": "0:00:04.418093",
+        "TXN Summary": {
+            "bnh_pct": 68.36161128,
+            "profit_net_pct": 56.916386123999985,
+            "profit_gross_pct": 49.913756726,
+            "loss_gross_pct": 0.0,
+            "profit_factor": 1000000000,
+            "runup_pct_max": 49.913756726,
+            "drawdown_pct_max": 49.913756726,
+            "mean_return_pct_annual": 0.10641092481967096,
+            "sd_delta_equity_annual": 0.1187830246760299,
+            "sd_downside_delta_equity_annual": 0.08741427875506481,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 1.0079280251985698,
+            "sortino_delta_equity_annual": 1.3696245189449316,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 80.0,
+            "win_count": 1,
+            "loss_count": 0,
+            "win_pct": 100.0,
+            "txn_list": [
+                [
+                    3,
+                    1,
+                    "2011-12-08",
+                    80.0,
+                    98747.99807999999,
+                    1252.0019200000097
+                ],
+                [
+                    935,
+                    -1,
+                    "2015-08-25",
+                    0.0,
+                    0.0,
+                    149913.756726
+                ],
+                [
+                    970,
+                    1,
+                    "2015-10-14",
+                    74.0,
+                    147573.75926,
+                    2339.9974660000007
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 3,
+                "1": 935,
+                "2": 970
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1
+            },
+            "date": {
+                "0": "2011-12-08",
+                "1": "2015-08-25",
+                "2": "2015-10-14"
+            },
+            "shares": {
+                "0": 80.0,
+                "1": 0.0,
+                "2": 74.0
+            },
+            "stock": {
+                "0": 98747.99807999999,
+                "1": 0.0,
+                "2": 147573.75926
+            },
+            "cash": {
+                "0": 1252.0019200000097,
+                "1": 149913.756726,
+                "2": 2339.9974660000007
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 149913.756726,
+                "2": 149913.756726
+            },
+            "return_txnpair": {
+                "0": 49913.75672599999,
+                "1": NaN,
+                "2": NaN
+            },
+            "return_pct_txnpair": {
+                "0": 49.913756726,
+                "1": NaN,
+                "2": NaN
+            }
+        }
+    },
+    "DA_Testing_2015-11-27_2016-11-21": {
+        "Strategy": "KAMA Only",
+        "Type": "Testing",
+        "From": "2011-12-05",
+        "To": "2015-11-25",
+        "Maxiter": 500,
+        "x": [
+            10.60582128156399,
+            2.231537266869799,
+            80.26684157060467,
+            0.0023079970439901787,
+            -0.00728735988587173,
+            4.749291122693165
+        ],
+        "Obj Func Ret": -0.0,
+        "Runtime": "0:00:00.114362",
+        "Runtime Per Iter": "0:00:00.000229",
+        "TXN Summary": {
+            "bnh_pct": 9.62457617800001,
+            "profit_net_pct": 8.82685470800002,
+            "profit_net_pct_annual": 8.863830626467406,
+            "profit_gross_pct": null,
+            "loss_gross_pct": null,
+            "profit_factor": null,
+            "runup_pct_max": null,
+            "drawdown_pct_max": null,
+            "mean_return_pct_annual": null,
+            "sd_delta_equity_annual": 0.09249849078382111,
+            "sd_downside_delta_equity_annual": 0.07028769592915256,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.9683745285783021,
+            "sortino_delta_equity_annual": 1.2743792668531018,
+            "avg_win_pct_annual": 0,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 0,
+            "win_count": 0,
+            "loss_count": 0,
+            "win_pct": 0,
+            "txn_list": [
+                [
+                    67,
+                    1,
+                    "2016-03-07",
+                    49.0,
+                    98086.24049,
+                    1913.7595100000035
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 67
+            },
+            "action": {
+                "0": 1
+            },
+            "date": {
+                "0": "2016-03-07"
+            },
+            "shares": {
+                "0": 49.0
+            },
+            "stock": {
+                "0": 98086.24049
+            },
+            "cash": {
+                "0": 1913.7595100000035
+            }
+        }
+    },
+    "DA_Training_2012-12-04_2016-11-22": {
+        "Strategy": "KAMA Only",
+        "Type": "Training",
+        "From": "2012-12-04",
+        "To": "2016-11-22",
+        "Maxiter": 500,
+        "Bounds": [
+            [
+                3,
+                20
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                0,
+                0.1
+            ],
+            [
+                -0.1,
+                0
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Result": {
+            "success": true,
+            "status": 0,
+            "x": [
+                3.5582782583271637,
+                2.2058760659227516,
+                12.811859629640821,
+                0.002376485224061725,
+                -0.007685758407394355,
+                4.280139701824509
+            ],
+            "fun": -101.62881408298992,
+            "nit": 500,
+            "nfev": 6057,
+            "njev": 8,
+            "nhev": 0,
+            "message": [
+                "Maximum number of iteration reached"
+            ]
+        },
+        "Runtime": "0:37:32.450845",
+        "Runtime Per Iter": "0:00:04.504902",
+        "TXN Summary": {
+            "bnh_pct": 54.84429930000001,
+            "profit_net_pct": 49.836768080510026,
+            "profit_gross_pct": 30.731053976510015,
+            "loss_gross_pct": 0.0,
+            "profit_factor": 1000000000,
+            "runup_pct_max": 30.717538885249994,
+            "drawdown_pct_max": 0.010339156761407509,
+            "mean_return_pct_annual": 0.06921643329250737,
+            "sd_delta_equity_annual": 0.12235409576141706,
+            "sd_downside_delta_equity_annual": 0.08988159067991887,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.8875882530489343,
+            "sortino_delta_equity_annual": 1.2082569666239937,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 70.0,
+            "win_count": 2,
+            "loss_count": 0,
+            "win_pct": 100.0,
+            "txn_list": [
+                [
+                    7,
+                    1,
+                    "2012-12-13",
+                    70.0,
+                    99361.49657,
+                    638.503429999997
+                ],
+                [
+                    685,
+                    -1,
+                    "2015-08-25",
+                    0.0,
+                    0.0,
+                    130717.53888525
+                ],
+                [
+                    690,
+                    1,
+                    "2015-09-01",
+                    67.0,
+                    128227.94839199999,
+                    2489.5904932500125
+                ],
+                [
+                    780,
+                    -1,
+                    "2016-01-11",
+                    0.0,
+                    0.0,
+                    130731.05397651001
+                ],
+                [
+                    807,
+                    1,
+                    "2016-02-19",
+                    67.0,
+                    128491.261943,
+                    2239.792033510006
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 7,
+                "1": 685,
+                "2": 690,
+                "3": 780,
+                "4": 807
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1,
+                "3": -1,
+                "4": 1
+            },
+            "date": {
+                "0": "2012-12-13",
+                "1": "2015-08-25",
+                "2": "2015-09-01",
+                "3": "2016-01-11",
+                "4": "2016-02-19"
+            },
+            "shares": {
+                "0": 70.0,
+                "1": 0.0,
+                "2": 67.0,
+                "3": 0.0,
+                "4": 67.0
+            },
+            "stock": {
+                "0": 99361.49657,
+                "1": 0.0,
+                "2": 128227.94839199999,
+                "3": 0.0,
+                "4": 128491.261943
+            },
+            "cash": {
+                "0": 638.503429999997,
+                "1": 130717.53888525,
+                "2": 2489.5904932500125,
+                "3": 130731.05397651001,
+                "4": 2239.792033510006
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 130717.53888525,
+                "2": 130717.53888525,
+                "3": 130731.05397651001,
+                "4": 130731.05397651001
+            },
+            "return_txnpair": {
+                "0": 30717.538885250004,
+                "1": NaN,
+                "2": 13.515091260007466,
+                "3": NaN,
+                "4": NaN
+            },
+            "return_pct_txnpair": {
+                "0": 30.717538885249994,
+                "1": NaN,
+                "2": 0.010339156761407509,
+                "3": NaN,
+                "4": NaN
+            }
+        }
+    },
+    "DA_Testing_2016-11-23_2017-11-17": {
+        "Strategy": "KAMA Only",
+        "Type": "Testing",
+        "From": "2012-12-04",
+        "To": "2016-11-22",
+        "Maxiter": 500,
+        "x": [
+            3.5582782583271637,
+            2.2058760659227516,
+            12.811859629640821,
+            0.002376485224061725,
+            -0.007685758407394355,
+            4.280139701824509
+        ],
+        "Obj Func Ret": -0.0,
+        "Runtime": "0:00:00.109724",
+        "Runtime Per Iter": "0:00:00.000219",
+        "TXN Summary": {
+            "bnh_pct": 16.97085571499999,
+            "profit_net_pct": 16.97085571499999,
+            "profit_net_pct_annual": 17.044516337126936,
+            "profit_gross_pct": null,
+            "loss_gross_pct": null,
+            "profit_factor": null,
+            "runup_pct_max": null,
+            "drawdown_pct_max": null,
+            "mean_return_pct_annual": null,
+            "sd_delta_equity_annual": 0.06732444301111541,
+            "sd_downside_delta_equity_annual": 0.04912734722389489,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 2.381525113842669,
+            "sortino_delta_equity_annual": 3.263657837573126,
+            "avg_win_pct_annual": 0,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 0,
+            "win_count": 0,
+            "loss_count": 0,
+            "win_pct": 0,
+            "txn_list": [
+                [
+                    2,
+                    1,
+                    "2016-11-28",
+                    45.0,
+                    99077.398695,
+                    922.6013050000038
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 2
+            },
+            "action": {
+                "0": 1
+            },
+            "date": {
+                "0": "2016-11-28"
+            },
+            "shares": {
+                "0": 45.0
+            },
+            "stock": {
+                "0": 99077.398695
+            },
+            "cash": {
+                "0": 922.6013050000038
+            }
+        }
+    },
+    "DA_Training_2013-12-02_2017-11-20": {
+        "Strategy": "KAMA Only",
+        "Type": "Training",
+        "From": "2013-12-02",
+        "To": "2017-11-20",
+        "Maxiter": 500,
+        "Bounds": [
+            [
+                3,
+                20
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                0,
+                0.1
+            ],
+            [
+                -0.1,
+                0
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Result": {
+            "success": true,
+            "status": 0,
+            "x": [
+                7.604874146989459,
+                2.0039897521728562,
+                57.558620637306944,
+                0.0004076585034663016,
+                -0.008514107496091855,
+                3.5991527140140533
+            ],
+            "fun": -81.89176336963011,
+            "nit": 500,
+            "nfev": 6057,
+            "njev": 8,
+            "nhev": 0,
+            "message": [
+                "Maximum number of iteration reached"
+            ]
+        },
+        "Runtime": "0:36:58.508623",
+        "Runtime Per Iter": "0:00:04.437017",
+        "TXN Summary": {
+            "bnh_pct": 43.28444279499999,
+            "profit_net_pct": 33.72846990712499,
+            "profit_gross_pct": 3.471705109125023,
+            "loss_gross_pct": 0.0,
+            "profit_factor": 1000000000,
+            "runup_pct_max": 3.471705109125023,
+            "drawdown_pct_max": 3.471705109125023,
+            "mean_return_pct_annual": 0.008559906979390242,
+            "sd_delta_equity_annual": 0.12232584653335202,
+            "sd_downside_delta_equity_annual": 0.09272569584775661,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.6552871550859674,
+            "sortino_delta_equity_annual": 0.8644697161392316,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 55.0,
+            "win_count": 1,
+            "loss_count": 0,
+            "win_pct": 100.0,
+            "txn_list": [
+                [
+                    1,
+                    1,
+                    "2013-12-03",
+                    55.0,
+                    98733.25132,
+                    1266.7486800000042
+                ],
+                [
+                    435,
+                    -1,
+                    "2015-08-25",
+                    0.0,
+                    0.0,
+                    103471.70510912502
+                ],
+                [
+                    438,
+                    1,
+                    "2015-08-28",
+                    51.0,
+                    101432.369745,
+                    2039.3353641250142
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 1,
+                "1": 435,
+                "2": 438
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1
+            },
+            "date": {
+                "0": "2013-12-03",
+                "1": "2015-08-25",
+                "2": "2015-08-28"
+            },
+            "shares": {
+                "0": 55.0,
+                "1": 0.0,
+                "2": 51.0
+            },
+            "stock": {
+                "0": 98733.25132,
+                "1": 0.0,
+                "2": 101432.369745
+            },
+            "cash": {
+                "0": 1266.7486800000042,
+                "1": 103471.70510912502,
+                "2": 2039.3353641250142
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 103471.70510912502,
+                "2": 103471.70510912502
+            },
+            "return_txnpair": {
+                "0": 3471.7051091250178,
+                "1": NaN,
+                "2": NaN
+            },
+            "return_pct_txnpair": {
+                "0": 3.471705109125023,
+                "1": NaN,
+                "2": NaN
+            }
+        }
+    },
+    "DA_Testing_2017-11-21_2018-11-15": {
+        "Strategy": "KAMA Only",
+        "Type": "Testing",
+        "From": "2013-12-02",
+        "To": "2017-11-20",
+        "Maxiter": 500,
+        "x": [
+            7.604874146989459,
+            2.0039897521728562,
+            57.558620637306944,
+            0.0004076585034663016,
+            -0.008514107496091855,
+            3.5991527140140533
+        ],
+        "Obj Func Ret": -1.8719794276450097,
+        "Runtime": "0:00:00.096145",
+        "Runtime Per Iter": "0:00:00.000192",
+        "TXN Summary": {
+            "bnh_pct": 3.8528056709999925,
+            "profit_net_pct": 1.8719794276450097,
+            "profit_net_pct_annual": 1.8795676324991906,
+            "profit_gross_pct": 4.707294126645012,
+            "loss_gross_pct": 0.0,
+            "profit_factor": 1000000000,
+            "runup_pct_max": 4.707294126645012,
+            "drawdown_pct_max": 4.707294126645012,
+            "mean_return_pct_annual": 0.047266388393437886,
+            "sd_delta_equity_annual": 0.13458718611177273,
+            "sd_downside_delta_equity_annual": 0.11842110779389887,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.20668747418636338,
+            "sortino_delta_equity_annual": 0.23490310193437897,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 37.0,
+            "win_count": 1,
+            "loss_count": 0,
+            "win_pct": 100.0,
+            "txn_list": [
+                [
+                    5,
+                    1,
+                    "2017-11-29",
+                    37.0,
+                    97164.592516,
+                    2835.4074839999957
+                ],
+                [
+                    224,
+                    -1,
+                    "2018-10-12",
+                    0.0,
+                    0.0,
+                    104707.294126645
+                ],
+                [
+                    243,
+                    1,
+                    "2018-11-08",
+                    37.0,
+                    103852.712886,
+                    854.5812406450132
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 5,
+                "1": 224,
+                "2": 243
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1
+            },
+            "date": {
+                "0": "2017-11-29",
+                "1": "2018-10-12",
+                "2": "2018-11-08"
+            },
+            "shares": {
+                "0": 37.0,
+                "1": 0.0,
+                "2": 37.0
+            },
+            "stock": {
+                "0": 97164.592516,
+                "1": 0.0,
+                "2": 103852.712886
+            },
+            "cash": {
+                "0": 2835.4074839999957,
+                "1": 104707.294126645,
+                "2": 854.5812406450132
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 104707.294126645,
+                "2": 104707.294126645
+            },
+            "return_txnpair": {
+                "0": 4707.294126645007,
+                "1": NaN,
+                "2": NaN
+            },
+            "return_pct_txnpair": {
+                "0": 4.707294126645012,
+                "1": NaN,
+                "2": NaN
+            }
+        }
+    },
+    "DA_Training_2014-11-28_2018-11-16": {
+        "Strategy": "KAMA Only",
+        "Type": "Training",
+        "From": "2014-11-28",
+        "To": "2018-11-16",
+        "Maxiter": 500,
+        "Bounds": [
+            [
+                3,
+                20
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                0,
+                0.1
+            ],
+            [
+                -0.1,
+                0
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Result": {
+            "success": true,
+            "status": 0,
+            "x": [
+                3.9033977322371314,
+                2.4443267608588926,
+                15.287164510794412,
+                0.006048006251072269,
+                -0.0026509140943707654,
+                2.5683042877409914
+            ],
+            "fun": -91.251670737615,
+            "nit": 500,
+            "nfev": 6036,
+            "njev": 5,
+            "nhev": 0,
+            "message": [
+                "Maximum number of iteration reached"
+            ]
+        },
+        "Runtime": "0:36:21.785777",
+        "Runtime Per Iter": "0:00:04.363572",
+        "TXN Summary": {
+            "bnh_pct": 37.8174988,
+            "profit_net_pct": 7.655538897300018,
+            "profit_gross_pct": 7.655538897300018,
+            "loss_gross_pct": 0.0,
+            "profit_factor": 1000000000,
+            "runup_pct_max": 4.367748824191442,
+            "drawdown_pct_max": 3.150197364749996,
+            "mean_return_pct_annual": 0.018593953267123098,
+            "sd_delta_equity_annual": 0.03294507101442692,
+            "sd_downside_delta_equity_annual": 0.01980280633315324,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.5762140383844564,
+            "sortino_delta_equity_annual": 0.9586223333560656,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 51.0,
+            "win_count": 2,
+            "loss_count": 0,
+            "win_pct": 100.0,
+            "txn_list": [
+                [
+                    214,
+                    1,
+                    "2015-10-06",
+                    50.0,
+                    98996.0022,
+                    1003.9977999999974
+                ],
+                [
+                    243,
+                    -1,
+                    "2015-11-16",
+                    0.0,
+                    0.0,
+                    103150.19736475
+                ],
+                [
+                    319,
+                    1,
+                    "2016-03-08",
+                    51.0,
+                    100942.26051,
+                    2207.9368547500053
+                ],
+                [
+                    389,
+                    -1,
+                    "2016-06-16",
+                    0.0,
+                    0.0,
+                    107655.53889730001
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 214,
+                "1": 243,
+                "2": 319,
+                "3": 389
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1,
+                "3": -1
+            },
+            "date": {
+                "0": "2015-10-06",
+                "1": "2015-11-16",
+                "2": "2016-03-08",
+                "3": "2016-06-16"
+            },
+            "shares": {
+                "0": 50.0,
+                "1": 0.0,
+                "2": 51.0,
+                "3": 0.0
+            },
+            "stock": {
+                "0": 98996.0022,
+                "1": 0.0,
+                "2": 100942.26051,
+                "3": 0.0
+            },
+            "cash": {
+                "0": 1003.9977999999974,
+                "1": 103150.19736475,
+                "2": 2207.9368547500053,
+                "3": 107655.53889730001
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 103150.19736475,
+                "2": 103150.19736475,
+                "3": 107655.53889730001
+            },
+            "return_txnpair": {
+                "0": 3150.197364749998,
+                "1": NaN,
+                "2": 4505.34153255001,
+                "3": NaN
+            },
+            "return_pct_txnpair": {
+                "0": 3.150197364749996,
+                "1": NaN,
+                "2": 4.367748824191442,
+                "3": NaN
+            }
+        }
+    },
+    "DA_Testing_2018-11-19_2019-11-14": {
+        "Strategy": "KAMA Only",
+        "Type": "Testing",
+        "From": "2014-11-28",
+        "To": "2018-11-16",
+        "Maxiter": 500,
+        "x": [
+            3.9033977322371314,
+            2.4443267608588926,
+            15.287164510794412,
+            0.006048006251072269,
+            -0.0026509140943707654,
+            2.5683042877409914
+        ],
+        "Obj Func Ret": -28.04963868577999,
+        "Runtime": "0:00:00.104350",
+        "Runtime Per Iter": "0:00:00.000209",
+        "TXN Summary": {
+            "bnh_pct": 25.949599600000006,
+            "profit_net_pct": 14.024819342889995,
+            "profit_net_pct_annual": 14.08493677555034,
+            "profit_gross_pct": 14.024819342889995,
+            "loss_gross_pct": 0.0,
+            "profit_factor": 1000000000,
+            "runup_pct_max": 12.859746230199987,
+            "drawdown_pct_max": 1.032319451005681,
+            "mean_return_pct_annual": 0.14084936775550339,
+            "sd_delta_equity_annual": 0.064129256864785,
+            "sd_downside_delta_equity_annual": 0.03466945510419904,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 2.0954789635724875,
+            "sortino_delta_equity_annual": 3.87607789928656,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 40.0,
+            "win_count": 2,
+            "loss_count": 0,
+            "win_pct": 100.0,
+            "txn_list": [
+                [
+                    29,
+                    1,
+                    "2019-01-03",
+                    40.0,
+                    97915.59572,
+                    2084.4042800000025
+                ],
+                [
+                    74,
+                    -1,
+                    "2019-03-11",
+                    0.0,
+                    0.0,
+                    112859.74623019999
+                ],
+                [
+                    137,
+                    1,
+                    "2019-06-10",
+                    38.0,
+                    109695.73924,
+                    3164.006990199996
+                ],
+                [
+                    175,
+                    -1,
+                    "2019-08-02",
+                    0.0,
+                    0.0,
+                    114024.81934289
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 29,
+                "1": 74,
+                "2": 137,
+                "3": 175
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1,
+                "3": -1
+            },
+            "date": {
+                "0": "2019-01-03",
+                "1": "2019-03-11",
+                "2": "2019-06-10",
+                "3": "2019-08-02"
+            },
+            "shares": {
+                "0": 40.0,
+                "1": 0.0,
+                "2": 38.0,
+                "3": 0.0
+            },
+            "stock": {
+                "0": 97915.59572,
+                "1": 0.0,
+                "2": 109695.73924,
+                "3": 0.0
+            },
+            "cash": {
+                "0": 2084.4042800000025,
+                "1": 112859.74623019999,
+                "2": 3164.006990199996,
+                "3": 114024.81934289
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 112859.74623019999,
+                "2": 112859.74623019999,
+                "3": 114024.81934289
+            },
+            "return_txnpair": {
+                "0": 12859.746230199991,
+                "1": NaN,
+                "2": 1165.0731126900064,
+                "3": NaN
+            },
+            "return_pct_txnpair": {
+                "0": 12.859746230199987,
+                "1": NaN,
+                "2": 1.032319451005681,
+                "3": NaN
+            }
+        }
+    },
+    "DA_Training_2015-11-25_2019-11-15": {
+        "Strategy": "KAMA Only",
+        "Type": "Training",
+        "From": "2015-11-25",
+        "To": "2019-11-15",
+        "Maxiter": 500,
+        "Bounds": [
+            [
+                3,
+                20
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                0,
+                0.1
+            ],
+            [
+                -0.1,
+                0
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Result": {
+            "success": true,
+            "status": 0,
+            "x": [
+                5.118837299327446,
+                2.0792066279440724,
+                76.8780252337346,
+                0.004535034448016451,
+                -0.0087561653456725,
+                2.2426821480116637
+            ],
+            "fun": -178.33280481874502,
+            "nit": 500,
+            "nfev": 6071,
+            "njev": 10,
+            "nhev": 0,
+            "message": [
+                "Maximum number of iteration reached"
+            ]
+        },
+        "Runtime": "0:37:06.352855",
+        "Runtime Per Iter": "0:00:04.452706",
+        "TXN Summary": {
+            "bnh_pct": 57.05999755,
+            "profit_net_pct": 59.444268272915004,
+            "profit_gross_pct": 59.444268272915004,
+            "loss_gross_pct": 0.0,
+            "profit_factor": 1000000000,
+            "runup_pct_max": 35.12020917675001,
+            "drawdown_pct_max": 0.9274251973853564,
+            "mean_return_pct_annual": 0.12357385884186156,
+            "sd_delta_equity_annual": 0.0854948377225828,
+            "sd_downside_delta_equity_annual": 0.06892577503858584,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 1.4073994909370928,
+            "sortino_delta_equity_annual": 1.7457241651784425,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 55.0,
+            "win_count": 3,
+            "loss_count": 0,
+            "win_pct": 100.0,
+            "txn_list": [
+                [
+                    69,
+                    1,
+                    "2016-03-08",
+                    50.0,
+                    98963.0005,
+                    1036.9995000000054
+                ],
+                [
+                    552,
+                    -1,
+                    "2018-02-06",
+                    0.0,
+                    0.0,
+                    135120.20917675
+                ],
+                [
+                    618,
+                    1,
+                    "2018-05-11",
+                    49.0,
+                    133658.278579,
+                    1461.9305977500044
+                ],
+                [
+                    725,
+                    -1,
+                    "2018-10-12",
+                    0.0,
+                    0.0,
+                    136373.348043415
+                ],
+                [
+                    780,
+                    1,
+                    "2019-01-03",
+                    55.0,
+                    134633.944115,
+                    1739.4039284150058
+                ],
+                [
+                    928,
+                    -1,
+                    "2019-08-06",
+                    0.0,
+                    0.0,
+                    159444.268272915
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 69,
+                "1": 552,
+                "2": 618,
+                "3": 725,
+                "4": 780,
+                "5": 928
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1,
+                "3": -1,
+                "4": 1,
+                "5": -1
+            },
+            "date": {
+                "0": "2016-03-08",
+                "1": "2018-02-06",
+                "2": "2018-05-11",
+                "3": "2018-10-12",
+                "4": "2019-01-03",
+                "5": "2019-08-06"
+            },
+            "shares": {
+                "0": 50.0,
+                "1": 0.0,
+                "2": 49.0,
+                "3": 0.0,
+                "4": 55.0,
+                "5": 0.0
+            },
+            "stock": {
+                "0": 98963.0005,
+                "1": 0.0,
+                "2": 133658.278579,
+                "3": 0.0,
+                "4": 134633.944115,
+                "5": 0.0
+            },
+            "cash": {
+                "0": 1036.9995000000054,
+                "1": 135120.20917675,
+                "2": 1461.9305977500044,
+                "3": 136373.348043415,
+                "4": 1739.4039284150058,
+                "5": 159444.268272915
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 135120.20917675,
+                "2": 135120.20917675,
+                "3": 136373.348043415,
+                "4": 136373.348043415,
+                "5": 159444.268272915
+            },
+            "return_txnpair": {
+                "0": 35120.20917675001,
+                "1": NaN,
+                "2": 1253.1388666649873,
+                "3": NaN,
+                "4": 23070.920229500014,
+                "5": NaN
+            },
+            "return_pct_txnpair": {
+                "0": 35.12020917675001,
+                "1": NaN,
+                "2": 0.9274251973853564,
+                "3": NaN,
+                "4": 16.917469989924495,
+                "5": NaN
+            }
+        }
+    },
+    "DA_Testing_2019-11-18_2020-11-11": {
+        "Strategy": "KAMA Only",
+        "Type": "Testing",
+        "From": "2015-11-25",
+        "To": "2019-11-15",
+        "Maxiter": 500,
+        "x": [
+            5.118837299327446,
+            2.0792066279440724,
+            76.8780252337346,
+            0.004535034448016451,
+            -0.0087561653456725,
+            2.2426821480116637
+        ],
+        "Obj Func Ret": -0.0,
+        "Runtime": "0:00:00.102693",
+        "Runtime Per Iter": "0:00:00.000205",
+        "TXN Summary": {
+            "bnh_pct": 27.39939454,
+            "profit_net_pct": 27.39939454,
+            "profit_net_pct_annual": 27.52335291973127,
+            "profit_gross_pct": null,
+            "loss_gross_pct": null,
+            "profit_factor": null,
+            "runup_pct_max": null,
+            "drawdown_pct_max": null,
+            "mean_return_pct_annual": null,
+            "sd_delta_equity_annual": 0.1585672163829078,
+            "sd_downside_delta_equity_annual": 0.12867695236942314,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 1.6200678553203456,
+            "sortino_delta_equity_annual": 1.9963920922844145,
+            "avg_win_pct_annual": 0,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 0,
+            "win_count": 0,
+            "loss_count": 0,
+            "win_pct": 0,
+            "txn_list": [
+                [
+                    98,
+                    1,
+                    "2020-04-09",
+                    35.0,
+                    97643.70238,
+                    2356.2976199999976
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 98
+            },
+            "action": {
+                "0": 1
+            },
+            "date": {
+                "0": "2020-04-09"
+            },
+            "shares": {
+                "0": 35.0
+            },
+            "stock": {
+                "0": 97643.70238
+            },
+            "cash": {
+                "0": 2356.2976199999976
+            }
+        }
+    },
+    "DA_Training_2016-11-22_2020-11-12": {
+        "Strategy": "KAMA Only",
+        "Type": "Training",
+        "From": "2016-11-22",
+        "To": "2020-11-12",
+        "Maxiter": 500,
+        "Bounds": [
+            [
+                3,
+                20
+            ],
+            [
+                2,
+                5
+            ],
+            [
+                10,
+                100
+            ],
+            [
+                0,
+                0.1
+            ],
+            [
+                -0.1,
+                0
+            ],
+            [
+                2,
+                5
+            ]
+        ],
+        "Result": {
+            "success": true,
+            "status": 0,
+            "x": [
+                10.383272932947875,
+                2.118869423866272,
+                46.480422616004944,
+                0.0009982579000293867,
+                -0.0028200840271424277,
+                4.815707981586456
+            ],
+            "fun": -285.95306915885,
+            "nit": 500,
+            "nfev": 6064,
+            "njev": 9,
+            "nhev": 0,
+            "message": [
+                "Maximum number of iteration reached"
+            ]
+        },
+        "Runtime": "0:35:49.028406",
+        "Runtime Per Iter": "0:00:04.298057",
+        "TXN Summary": {
+            "bnh_pct": 59.95305175500003,
+            "profit_net_pct": 34.50134816271997,
+            "profit_gross_pct": 57.95947202332001,
+            "loss_gross_pct": -23.458123860600022,
+            "profit_factor": -2.47076332138684,
+            "runup_pct_max": 21.462490014074987,
+            "drawdown_pct_max": -6.679085461771006,
+            "mean_return_pct_annual": 0.07683586044815427,
+            "sd_delta_equity_annual": 0.1043943139613456,
+            "sd_downside_delta_equity_annual": 0.08752071516007225,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 0.7623727099230413,
+            "sortino_delta_equity_annual": 0.9093547269318513,
+            "avg_win_pct_annual": null,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 45.0,
+            "win_count": 4,
+            "loss_count": 5,
+            "win_pct": 44.44444444444444,
+            "txn_list": [
+                [
+                    1,
+                    1,
+                    "2016-11-23",
+                    45.0,
+                    99212.398695,
+                    787.6013050000038
+                ],
+                [
+                    302,
+                    -1,
+                    "2018-02-06",
+                    0.0,
+                    0.0,
+                    121462.490014075
+                ],
+                [
+                    315,
+                    1,
+                    "2018-02-26",
+                    43.0,
+                    119522.80421399999,
+                    1939.6858000750071
+                ],
+                [
+                    335,
+                    -1,
+                    "2018-03-26",
+                    0.0,
+                    0.0,
+                    115685.74964654
+                ],
+                [
+                    368,
+                    1,
+                    "2018-05-11",
+                    42.0,
+                    114564.238782,
+                    1121.5108645400032
+                ],
+                [
+                    474,
+                    -1,
+                    "2018-10-11",
+                    0.0,
+                    0.0,
+                    115140.09805397
+                ],
+                [
+                    495,
+                    1,
+                    "2018-11-09",
+                    41.0,
+                    114021.41041,
+                    1118.687643969999
+                ],
+                [
+                    504,
+                    -1,
+                    "2018-11-23",
+                    0.0,
+                    0.0,
+                    108513.975250875
+                ],
+                [
+                    534,
+                    1,
+                    "2019-01-09",
+                    41.0,
+                    105983.358401,
+                    2530.6168498749903
+                ],
+                [
+                    621,
+                    -1,
+                    "2019-05-15",
+                    0.0,
+                    0.0,
+                    118835.52845887
+                ],
+                [
+                    641,
+                    1,
+                    "2019-06-13",
+                    40.0,
+                    115665.59572,
+                    3169.932738870004
+                ],
+                [
+                    679,
+                    -1,
+                    "2019-08-07",
+                    0.0,
+                    0.0,
+                    117952.33594287
+                ],
+                [
+                    702,
+                    1,
+                    "2019-09-10",
+                    39.0,
+                    116196.205827,
+                    1756.130115870008
+                ],
+                [
+                    818,
+                    -1,
+                    "2020-02-26",
+                    0.0,
+                    0.0,
+                    122687.63991373501
+                ],
+                [
+                    852,
+                    1,
+                    "2020-04-15",
+                    43.0,
+                    119684.484601,
+                    3003.1553127350053
+                ],
+                [
+                    966,
+                    -1,
+                    "2020-09-25",
+                    0.0,
+                    0.0,
+                    144127.76474412
+                ],
+                [
+                    977,
+                    1,
+                    "2020-10-12",
+                    40.0,
+                    141368.79884,
+                    2758.9659041200066
+                ],
+                [
+                    990,
+                    -1,
+                    "2020-10-29",
+                    0.0,
+                    0.0,
+                    134501.34816271998
+                ],
+                [
+                    998,
+                    1,
+                    "2020-11-10",
+                    37.0,
+                    131184.611073,
+                    3316.7370897199726
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 1,
+                "1": 302,
+                "2": 315,
+                "3": 335,
+                "4": 368,
+                "5": 474,
+                "6": 495,
+                "7": 504,
+                "8": 534,
+                "9": 621,
+                "10": 641,
+                "11": 679,
+                "12": 702,
+                "13": 818,
+                "14": 852,
+                "15": 966,
+                "16": 977,
+                "17": 990,
+                "18": 998
+            },
+            "action": {
+                "0": 1,
+                "1": -1,
+                "2": 1,
+                "3": -1,
+                "4": 1,
+                "5": -1,
+                "6": 1,
+                "7": -1,
+                "8": 1,
+                "9": -1,
+                "10": 1,
+                "11": -1,
+                "12": 1,
+                "13": -1,
+                "14": 1,
+                "15": -1,
+                "16": 1,
+                "17": -1,
+                "18": 1
+            },
+            "date": {
+                "0": "2016-11-23",
+                "1": "2018-02-06",
+                "2": "2018-02-26",
+                "3": "2018-03-26",
+                "4": "2018-05-11",
+                "5": "2018-10-11",
+                "6": "2018-11-09",
+                "7": "2018-11-23",
+                "8": "2019-01-09",
+                "9": "2019-05-15",
+                "10": "2019-06-13",
+                "11": "2019-08-07",
+                "12": "2019-09-10",
+                "13": "2020-02-26",
+                "14": "2020-04-15",
+                "15": "2020-09-25",
+                "16": "2020-10-12",
+                "17": "2020-10-29",
+                "18": "2020-11-10"
+            },
+            "shares": {
+                "0": 45.0,
+                "1": 0.0,
+                "2": 43.0,
+                "3": 0.0,
+                "4": 42.0,
+                "5": 0.0,
+                "6": 41.0,
+                "7": 0.0,
+                "8": 41.0,
+                "9": 0.0,
+                "10": 40.0,
+                "11": 0.0,
+                "12": 39.0,
+                "13": 0.0,
+                "14": 43.0,
+                "15": 0.0,
+                "16": 40.0,
+                "17": 0.0,
+                "18": 37.0
+            },
+            "stock": {
+                "0": 99212.398695,
+                "1": 0.0,
+                "2": 119522.80421399999,
+                "3": 0.0,
+                "4": 114564.238782,
+                "5": 0.0,
+                "6": 114021.41041,
+                "7": 0.0,
+                "8": 105983.358401,
+                "9": 0.0,
+                "10": 115665.59572,
+                "11": 0.0,
+                "12": 116196.205827,
+                "13": 0.0,
+                "14": 119684.484601,
+                "15": 0.0,
+                "16": 141368.79884,
+                "17": 0.0,
+                "18": 131184.611073
+            },
+            "cash": {
+                "0": 787.6013050000038,
+                "1": 121462.490014075,
+                "2": 1939.6858000750071,
+                "3": 115685.74964654,
+                "4": 1121.5108645400032,
+                "5": 115140.09805397,
+                "6": 1118.687643969999,
+                "7": 108513.975250875,
+                "8": 2530.6168498749903,
+                "9": 118835.52845887,
+                "10": 3169.932738870004,
+                "11": 117952.33594287,
+                "12": 1756.130115870008,
+                "13": 122687.63991373501,
+                "14": 3003.1553127350053,
+                "15": 144127.76474412,
+                "16": 2758.9659041200066,
+                "17": 134501.34816271998,
+                "18": 3316.7370897199726
+            },
+            "equity": {
+                "0": 100000.0,
+                "1": 121462.490014075,
+                "2": 121462.490014075,
+                "3": 115685.74964654,
+                "4": 115685.74964654,
+                "5": 115140.09805397,
+                "6": 115140.09805397,
+                "7": 108513.975250875,
+                "8": 108513.975250875,
+                "9": 118835.52845887,
+                "10": 118835.52845887,
+                "11": 117952.33594287,
+                "12": 117952.33594287,
+                "13": 122687.63991373501,
+                "14": 122687.63991373501,
+                "15": 144127.76474412,
+                "16": 144127.76474412,
+                "17": 134501.34816271998,
+                "18": 134501.34816271998
+            },
+            "return_txnpair": {
+                "0": 21462.490014074996,
+                "1": NaN,
+                "2": -5776.740367534992,
+                "3": NaN,
+                "4": -545.6515925700078,
+                "5": NaN,
+                "6": -6626.122803095001,
+                "7": NaN,
+                "8": 10321.553207995006,
+                "9": NaN,
+                "10": -883.1925159999955,
+                "11": NaN,
+                "12": 4735.303970865003,
+                "13": NaN,
+                "14": 21440.124830385,
+                "15": NaN,
+                "16": -9626.41658140003,
+                "17": NaN,
+                "18": NaN
+            },
+            "return_pct_txnpair": {
+                "0": 21.462490014074987,
+                "1": NaN,
+                "2": -4.755987109160687,
+                "3": NaN,
+                "4": -0.4716670758819985,
+                "5": NaN,
+                "6": -5.754835122677349,
+                "7": NaN,
+                "8": 9.511727115454448,
+                "9": NaN,
+                "10": -0.7432057798318126,
+                "11": NaN,
+                "12": 4.014591091403674,
+                "13": NaN,
+                "14": 17.475374736575034,
+                "15": NaN,
+                "16": -6.679085461771006,
+                "17": NaN,
+                "18": NaN
+            }
+        }
+    },
+    "DA_Testing_2020-11-13_2021-11-09": {
+        "Strategy": "KAMA Only",
+        "Type": "Testing",
+        "From": "2016-11-22",
+        "To": "2020-11-12",
+        "Maxiter": 500,
+        "x": [
+            10.383272932947875,
+            2.118869423866272,
+            46.480422616004944,
+            0.0009982579000293867,
+            -0.0028200840271424277,
+            4.815707981586456
+        ],
+        "Obj Func Ret": -0.0,
+        "Runtime": "0:00:00.080601",
+        "Runtime Per Iter": "0:00:00.000161",
+        "TXN Summary": {
+            "bnh_pct": 28.575182376000008,
+            "profit_net_pct": 23.207851322999986,
+            "profit_net_pct_annual": 23.311162877355663,
+            "profit_gross_pct": null,
+            "loss_gross_pct": null,
+            "profit_factor": null,
+            "runup_pct_max": null,
+            "drawdown_pct_max": null,
+            "mean_return_pct_annual": null,
+            "sd_delta_equity_annual": 0.11019137275036053,
+            "sd_downside_delta_equity_annual": 0.0805151274057179,
+            "risk_free_rate": 0,
+            "sharpe_delta_equity_annual": 1.9651712820875353,
+            "sortino_delta_equity_annual": 2.689493617412239,
+            "avg_win_pct_annual": 0,
+            "avg_loss_pct_annual": null,
+            "avg_wintoloss_ratio_annual": null,
+            "max_shares": 0,
+            "win_count": 0,
+            "loss_count": 0,
+            "win_pct": 0,
+            "txn_list": [
+                [
+                    1,
+                    1,
+                    "2020-11-16",
+                    27.0,
+                    97926.567624,
+                    2073.432375999997
+                ]
+            ]
+        },
+        "TXN log": {
+            "idx": {
+                "0": 1
+            },
+            "action": {
+                "0": 1
+            },
+            "date": {
+                "0": "2020-11-16"
+            },
+            "shares": {
+                "0": 27.0
+            },
+            "stock": {
+                "0": 97926.567624
+            },
+            "cash": {
+                "0": 2073.432375999997
+            }
+        }
+    }
+}
